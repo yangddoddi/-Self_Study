@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Accounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddEachDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddEachDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CumulativeTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/eunchanyang/Desktop/java/javaStudy",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eunchanyang/Desktop/java/javaStudy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="애플리케이션.AddEachDigit">
+}</component>
+  <component name="RunManager" selected="애플리케이션.CumulativeTotal">
     <configuration name="AddEachDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddEachDigit" />
       <module name="javaStudy" />
@@ -62,6 +60,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CumulativeTotal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CumulativeTotal" />
+      <module name="javaStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="login" />
       <module name="javaStudy" />
@@ -71,12 +76,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.CumulativeTotal" />
       <item itemvalue="애플리케이션.AddEachDigit" />
       <item itemvalue="애플리케이션.Calculator" />
       <item itemvalue="애플리케이션.login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.CumulativeTotal" />
         <item itemvalue="애플리케이션.AddEachDigit" />
         <item itemvalue="애플리케이션.Calculator" />
         <item itemvalue="애플리케이션.login" />
@@ -94,6 +101,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
+      <workItem from="1653753633711" duration="400000" />
     </task>
     <servers />
   </component>
