@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator.java" afterDir="false" />
     </list>
@@ -33,20 +34,35 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.calculator">
     <configuration name="calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculator" />
       <module name="accountingCalculator" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;ddoddi&quot;, &quot;123456&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="login" />
+      <module name="accountingCalculator" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;ddoddi&quot; &quot;123456&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="애플리케이션.login" />
+      <item itemvalue="애플리케이션.calculator" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.calculator" />
+        <item itemvalue="애플리케이션.login" />
       </list>
     </recent_temporary>
   </component>
@@ -58,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653653866085</updated>
-      <workItem from="1653653867625" duration="675000" />
+      <workItem from="1653653867625" duration="2750000" />
+      <workItem from="1653704722485" duration="8654000" />
     </task>
     <servers />
   </component>
