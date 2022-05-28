@@ -1,3 +1,5 @@
+package whileStudy;
+
 public class CumulativeTotal {
     public static void main(String[] args) {
         int maxNum = 0;
@@ -10,7 +12,7 @@ public class CumulativeTotal {
 
 // 내가 만든 코드는 쓸데없이 길다.
 // while 조건문 안에서도 연산이 가능하다는 것을 배웠다.
-//public class CumulativeTotal {
+//public class whileStudy.CumulativeTotal {
 //    public static void main(String[] args) {
 //        int maxNum = 0;
 //        int num = 0;

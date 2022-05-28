@@ -1,3 +1,5 @@
+package whileStudy;
+
 import java.util.Scanner;
 
 // 입력 값의 각 자리수를 더하는 계산기

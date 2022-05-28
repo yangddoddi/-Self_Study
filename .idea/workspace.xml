@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CumulativeTotal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddEachDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whileStudy/AddEachDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CumulativeTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whileStudy/CumulativeTotal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +39,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.CumulativeTotal">
-    <configuration name="AddEachDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AddEachDigit" />
+  <component name="RunManager" selected="애플리케이션.AddInputNumbers">
+    <configuration name="AddInputNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whileStudy.AddInputNumbers" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="whileStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,13 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CumulativeTotal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CumulativeTotal" />
-      <module name="javaStudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="login" />
       <module name="javaStudy" />
@@ -75,16 +69,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="whileStudy.AddEachDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whileStudy.AddEachDigit" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="whileStudy.CumulativeTotal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whileStudy.CumulativeTotal" />
+      <module name="javaStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="애플리케이션.CumulativeTotal" />
-      <item itemvalue="애플리케이션.AddEachDigit" />
+      <item itemvalue="애플리케이션.AddInputNumbers" />
+      <item itemvalue="애플리케이션.whileStudy.AddEachDigit" />
+      <item itemvalue="애플리케이션.whileStudy.CumulativeTotal" />
       <item itemvalue="애플리케이션.Calculator" />
       <item itemvalue="애플리케이션.login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.CumulativeTotal" />
-        <item itemvalue="애플리케이션.AddEachDigit" />
+        <item itemvalue="애플리케이션.AddInputNumbers" />
+        <item itemvalue="애플리케이션.whileStudy.CumulativeTotal" />
+        <item itemvalue="애플리케이션.whileStudy.AddEachDigit" />
         <item itemvalue="애플리케이션.Calculator" />
         <item itemvalue="애플리케이션.login" />
       </list>
@@ -101,7 +117,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
-      <workItem from="1653753633711" duration="400000" />
+      <workItem from="1653753633711" duration="1339000" />
     </task>
     <servers />
   </component>
