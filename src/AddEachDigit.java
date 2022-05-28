@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// 입력 값의 각 자리수를 더하는 계산기
 public class AddEachDigit {
     public static void main(String[] args) {
         System.out.println("원하는 수를 입력해주세요.");

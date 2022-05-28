@@ -1,3 +1,4 @@
+// 순수익 계산기 클래스
 class Accounting {
     public double valueOfSupply;
     public Accounting (double valueOfSupply) {
