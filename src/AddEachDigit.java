@@ -1,5 +1,3 @@
-package javaStudy;
-
 import java.util.Scanner;
 
 public class AddEachDigit {
