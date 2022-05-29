@@ -38,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.copyArr">
+  <component name="RunManager" selected="애플리케이션.copyArr2">
     <configuration name="ChoiceOption2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iterationStatements.ChoiceOption2" />
       <module name="javaStudy" />
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doWhile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iterationStatements.whileStudy.doWhile2" />
+    <configuration name="copyArr2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.copyArr2" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterationStatements.whileStudy.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,16 +108,16 @@
       <item itemvalue="애플리케이션.ChoiceOption2" />
       <item itemvalue="애플리케이션.breakLoop" />
       <item itemvalue="애플리케이션.copyArr" />
-      <item itemvalue="애플리케이션.whileStudy.doWhile2" />
+      <item itemvalue="애플리케이션.copyArr2" />
       <item itemvalue="애플리케이션.iterationStatements.whileStudy.ChoiceOption" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.copyArr2" />
         <item itemvalue="애플리케이션.copyArr" />
         <item itemvalue="애플리케이션.ChoiceOption2" />
         <item itemvalue="애플리케이션.breakLoop" />
         <item itemvalue="애플리케이션.iterationStatements.whileStudy.ChoiceOption" />
-        <item itemvalue="애플리케이션.whileStudy.doWhile2" />
       </list>
     </recent_temporary>
   </component>
