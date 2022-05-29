@@ -2,7 +2,6 @@ package Array;
 
 public class maxAndMin {
     public static void main (String[] args) {
-
         int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8};
         int maxNum = arr[0];
         int minNum = arr[5];
