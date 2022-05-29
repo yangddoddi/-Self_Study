@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/arrValueCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.sort">
+  <component name="RunManager" selected="애플리케이션.arrValueCounter">
     <configuration name="LottoNumMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.LottoNumMaker" />
       <module name="javaStudy" />
@@ -52,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.maxAndMin" />
+    <configuration name="arrValueCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.arrValueCounter" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shiffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.shiffle" />
+    <configuration name="maxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.maxAndMin" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -106,18 +106,18 @@
     </configuration>
     <list>
       <item itemvalue="애플리케이션.LottoNumMaker" />
+      <item itemvalue="애플리케이션.arrValueCounter" />
       <item itemvalue="애플리케이션.maxAndMin" />
-      <item itemvalue="애플리케이션.shiffle" />
       <item itemvalue="애플리케이션.shuffle" />
       <item itemvalue="애플리케이션.sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.arrValueCounter" />
         <item itemvalue="애플리케이션.sort" />
         <item itemvalue="애플리케이션.LottoNumMaker" />
         <item itemvalue="애플리케이션.shuffle" />
         <item itemvalue="애플리케이션.maxAndMin" />
-        <item itemvalue="애플리케이션.shiffle" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
-      <workItem from="1653753633711" duration="19062000" />
+      <workItem from="1653753633711" duration="20927000" />
     </task>
     <servers />
   </component>
