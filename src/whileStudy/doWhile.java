@@ -2,6 +2,7 @@ package whileStudy;
 
 import javax.swing.*;
 
+// 랜덤 수 맞추기
 public class doWhile {
     public static void main(String[] args) {
         int correct = (int)Math.ceil(Math.random() * 100);

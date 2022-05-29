@@ -2,6 +2,7 @@ package whileStudy;
 
 import java.util.Scanner;
 
+// 입력한 모든 값을 더한 결과 출력하기
 public class AddInputNumbers {
     public static void main(String[] args) {
         boolean isTrue = true;

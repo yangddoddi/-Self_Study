@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-// 순수익 계산스
+// 순수익 계산
 public class Calculator {
     public static double vatRate = 0.1;
     public static double expenseRate = 0.3;
