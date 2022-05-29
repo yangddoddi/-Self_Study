@@ -1,4 +1,4 @@
-package whileStudy;
+package While;
 
 public class Continue {
     public static void main (String[] args) {

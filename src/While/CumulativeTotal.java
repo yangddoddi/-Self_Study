@@ -1,4 +1,4 @@
-package whileStudy;
+package While;
 
 // 1부터 ?까지의 수를 더하며 100과 가까운 수 만들기.
 public class CumulativeTotal {

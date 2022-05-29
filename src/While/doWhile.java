@@ -1,4 +1,4 @@
-package whileStudy;
+package While;
 
 import javax.swing.*;
 

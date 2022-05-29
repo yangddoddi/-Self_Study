@@ -1,4 +1,4 @@
-package whileStudy;
+package While;
 
 // 각 자리의 수가 3의 배수를 가지고 있다면 짝
 // ex > 13 짝 33 짝짝

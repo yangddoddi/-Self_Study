@@ -1,4 +1,4 @@
-package whileStudy;
+package While;
 
 import java.util.Scanner;
 

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/arrValueCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whileStudy/AddEachDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/AddEachDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whileStudy/AddInputNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/AddInputNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whileStudy/ChoiceOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/ChoiceOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whileStudy/Continue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/Continue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whileStudy/CumulativeTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/CumulativeTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whileStudy/doWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/doWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whileStudy/doWhile2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/doWhile2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +138,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
-      <workItem from="1653753633711" duration="20927000" />
+      <workItem from="1653753633711" duration="21978000" />
     </task>
     <servers />
   </component>
@@ -161,21 +167,6 @@
           <url>file://$PROJECT_DIR$/src/Array/LottoNumMaker.java</url>
           <line>27</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/sort.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/sort.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/sort.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
