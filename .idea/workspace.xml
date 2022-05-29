@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/whileStudy/ChoiceOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/whileStudy/Continue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whileStudy/Continue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/whileStudy/doWhile2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/whileStudy/doWhile2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.whileStudy.doWhile2">
+  <component name="RunManager" selected="애플리케이션.ChoiceOption">
+    <configuration name="ChoiceOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="whileStudy.ChoiceOption" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="whileStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Continue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="whileStudy.Continue" />
       <module name="javaStudy" />
@@ -62,13 +74,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="whileStudy.CumulativeTotal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="whileStudy.CumulativeTotal" />
-      <module name="javaStudy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,19 +105,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.ChoiceOption" />
       <item itemvalue="애플리케이션.Continue" />
       <item itemvalue="애플리케이션.whileStudy.AddInputNumbers" />
-      <item itemvalue="애플리케이션.whileStudy.CumulativeTotal" />
       <item itemvalue="애플리케이션.whileStudy.doWhile" />
       <item itemvalue="애플리케이션.whileStudy.doWhile2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ChoiceOption" />
         <item itemvalue="애플리케이션.whileStudy.doWhile2" />
         <item itemvalue="애플리케이션.Continue" />
         <item itemvalue="애플리케이션.whileStudy.doWhile" />
         <item itemvalue="애플리케이션.whileStudy.AddInputNumbers" />
-        <item itemvalue="애플리케이션.whileStudy.CumulativeTotal" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +132,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
-      <workItem from="1653753633711" duration="6978000" />
+      <workItem from="1653753633711" duration="8212000" />
     </task>
     <servers />
   </component>
