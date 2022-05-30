@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/String/calculatorForArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/doubleArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1653875506" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1653875505" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,20 +64,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.calculatorForArgs">
-    <configuration name="LottoNumMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.LottoNumMaker" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.doubleArray">
     <configuration name="String.stringToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.stringToChar" />
       <module name="javaStudy" />
@@ -94,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="doubleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.doubleArray" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.sort" />
       <module name="javaStudy" />
@@ -108,19 +133,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.doubleArray" />
       <item itemvalue="애플리케이션.calculatorForArgs" />
-      <item itemvalue="애플리케이션.LottoNumMaker" />
       <item itemvalue="애플리케이션.arrValueCounter" />
       <item itemvalue="애플리케이션.sort" />
       <item itemvalue="애플리케이션.String.stringToChar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.doubleArray" />
         <item itemvalue="애플리케이션.calculatorForArgs" />
         <item itemvalue="애플리케이션.String.stringToChar" />
         <item itemvalue="애플리케이션.arrValueCounter" />
         <item itemvalue="애플리케이션.sort" />
-        <item itemvalue="애플리케이션.LottoNumMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +160,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
-      <workItem from="1653753633711" duration="23359000" />
+      <workItem from="1653753633711" duration="26127000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
