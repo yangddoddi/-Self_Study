@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Array/doubleArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Coordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/doubleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/doubleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +64,13 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.doubleArray2">
-    <configuration name="String.stringToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.stringToChar" />
+  <component name="RunManager" selected="애플리케이션.Coordinates">
+    <configuration name="Coordinates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Coordinates" />
       <module name="javaStudy" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;100&quot;&quot;-&quot;&quot;50&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrValueCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.arrValueCounter" />
+    <configuration name="String.stringToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.stringToChar" />
       <module name="javaStudy" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;100&quot;&quot;-&quot;&quot;50&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +133,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.Coordinates" />
       <item itemvalue="애플리케이션.doubleArray" />
       <item itemvalue="애플리케이션.doubleArray2" />
       <item itemvalue="애플리케이션.calculatorForArgs" />
-      <item itemvalue="애플리케이션.arrValueCounter" />
       <item itemvalue="애플리케이션.String.stringToChar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Coordinates" />
         <item itemvalue="애플리케이션.doubleArray2" />
         <item itemvalue="애플리케이션.doubleArray" />
         <item itemvalue="애플리케이션.calculatorForArgs" />
         <item itemvalue="애플리케이션.String.stringToChar" />
-        <item itemvalue="애플리케이션.arrValueCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +160,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
-      <workItem from="1653753633711" duration="28091000" />
+      <workItem from="1653753633711" duration="32567000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
