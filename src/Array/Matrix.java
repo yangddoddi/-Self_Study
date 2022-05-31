@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-// 행렬 곱하기
+// 행렬 곱하
 public class Matrix {
     public static void main(String[] args) {
         int[][] matrix1 = {
