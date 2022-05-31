@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Array/NumberBingo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.NumberBingo">
+  <component name="RunManager" selected="애플리케이션.Matrix">
     <configuration name="Coordinates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.Coordinates" />
       <module name="javaStudy" />
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberBingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.NumberBingo" />
+    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Matrix" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doubleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.doubleArray" />
+    <configuration name="NumberBingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.NumberBingo" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -127,17 +127,17 @@
     <list>
       <item itemvalue="애플리케이션.Coordinates" />
       <item itemvalue="애플리케이션.Main" />
+      <item itemvalue="애플리케이션.Matrix" />
       <item itemvalue="애플리케이션.NumberBingo" />
-      <item itemvalue="애플리케이션.doubleArray" />
       <item itemvalue="애플리케이션.doubleArray2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Matrix" />
         <item itemvalue="애플리케이션.NumberBingo" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Coordinates" />
         <item itemvalue="애플리케이션.doubleArray2" />
-        <item itemvalue="애플리케이션.doubleArray" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +152,7 @@
       <workItem from="1653653867625" duration="2750000" />
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
-      <workItem from="1653753633711" duration="39879000" />
+      <workItem from="1653753633711" duration="43395000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
