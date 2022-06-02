@@ -19,5 +19,4 @@ public class Square {
         }
         // 2의 n제곱을 각각 더하는 반복문
     }
-
 }
