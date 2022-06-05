@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/OOP/Basic/SingleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Basic/Modifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Basic/PolymorphismForMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +66,21 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingleInheritance">
-    <configuration name="Composite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PolymorphismForMethod">
+    <configuration name="Modifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Basic.Modifier" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOP.Basic.Composite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Basic.Composite" />
       <module name="javaStudy" />
       <extension name="coverage">
@@ -79,20 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.OverLoading" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OOP.Basic.SingleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Basic.SingleInheritance" />
       <module name="javaStudy" />
       <extension name="coverage">
@@ -105,20 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Varargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.Varargs" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP.Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="staticAndMethod2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OOP.Basic.staticAndMethod2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Basic.staticAndMethod2" />
       <module name="javaStudy" />
       <extension name="coverage">
@@ -131,17 +119,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PolymorphismForMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Basic.PolymorphismForMethod" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Composite" />
-      <item itemvalue="Application.OverLoading" />
-      <item itemvalue="Application.SingleInheritance" />
-      <item itemvalue="Application.Varargs" />
-      <item itemvalue="Application.staticAndMethod2" />
+      <item itemvalue="Application.Modifier" />
+      <item itemvalue="Application.OOP.Basic.Composite" />
+      <item itemvalue="Application.OOP.Basic.SingleInheritance" />
+      <item itemvalue="Application.OOP.Basic.staticAndMethod2" />
+      <item itemvalue="Application.PolymorphismForMethod" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleInheritance" />
-        <item itemvalue="Application.Composite" />
+        <item itemvalue="Application.PolymorphismForMethod" />
+        <item itemvalue="Application.Modifier" />
+        <item itemvalue="Application.OOP.Basic.SingleInheritance" />
+        <item itemvalue="Application.OOP.Basic.Composite" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +160,7 @@
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
       <workItem from="1653753633711" duration="70955000" />
-      <workItem from="1654270421507" duration="8166000" />
+      <workItem from="1654270421507" duration="16317000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
