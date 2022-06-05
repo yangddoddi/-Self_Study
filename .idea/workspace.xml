@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/OOP/Basic/Modifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Basic/PolymorphismForMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP/Basic/PolymorphismForMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Basic/PolymorphismForMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
       <workItem from="1653753633711" duration="70955000" />
-      <workItem from="1654270421507" duration="16317000" />
+      <workItem from="1654270421507" duration="22004000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
