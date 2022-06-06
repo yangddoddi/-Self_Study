@@ -6,7 +6,15 @@ class OuterClass {
 
     class InstanceInner {
         int i = privateInt;
+        int num = 3;
         // 외부 클래스의 프라이빗 멤버 변수 접근 가능
+        void InnerInnerMethod() {
+            int num = 4;
+            System.out.println("Outer.this.num : " + OuterClass.this.num);
+            System.out.println("this.num : " + this.num);
+            System.out.println("num : " + num);
+            // 결과 2, 3, 6
+        }
     }
     static class StaticInner {}
 
@@ -38,6 +46,12 @@ class OuterClass {
 
 public class InnerClass {
     public static void main(String[] args) {
-
+        OuterClass outer = new OuterClass();
+        OuterClass.InstanceInner inner = outer.new InstanceInner();
+        // 내부 클래스를 외부 클래스가 아닌 다른 클래스에서 인스턴스 생성하는 경우
+        // 아우터 클래스를 먼저 인스턴스화한 후 인스턴스 생성해야함.
+        OuterClass.StaticInner staticInner = new OuterClass.StaticInner();
+        // 스태틱 클래스는 바로 생성 가능ㅎ다.
+        inner.InnerInnerMethod();
     }
 }
