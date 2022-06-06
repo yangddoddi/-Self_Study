@@ -71,7 +71,7 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExeptionHandling2">
+  <component name="RunManager" selected="Application.ExceptionHandling2">
     <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Basic.ExceptionHandling" />
       <module name="javaStudy" />
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExeptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.ExeptionHandling" />
+    <configuration name="ExceptionHandling2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Basic.ExceptionHandling2" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExeptionHandling2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.ExeptionHandling2" />
+    <configuration name="ExeptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Basic.ExeptionHandling" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -138,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExceptionHandling" />
-      <item itemvalue="Application.ExeptionHandling" />
-      <item itemvalue="Application.ExeptionHandling2" />
-      <item itemvalue="Application.InnerClass" />
-      <item itemvalue="Application.WhyUseInterface" />
+      <item itemvalue="Application.OOP.Basic.ExceptionHandling" />
+      <item itemvalue="Application.ExceptionHandling2" />
+      <item itemvalue="Application.OOP.Basic.ExeptionHandling" />
+      <item itemvalue="Application.OOP.Basic.InnerClass" />
+      <item itemvalue="Application.OOP.Basic.WhyUseInterface" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExeptionHandling2" />
-        <item itemvalue="Application.ExceptionHandling" />
-        <item itemvalue="Application.ExeptionHandling" />
-        <item itemvalue="Application.InnerClass" />
-        <item itemvalue="Application.WhyUseInterface" />
+        <item itemvalue="Application.ExceptionHandling2" />
+        <item itemvalue="Application.OOP.Basic.ExceptionHandling" />
+        <item itemvalue="Application.OOP.Basic.ExeptionHandling" />
+        <item itemvalue="Application.OOP.Basic.InnerClass" />
+        <item itemvalue="Application.OOP.Basic.WhyUseInterface" />
       </list>
     </recent_temporary>
   </component>

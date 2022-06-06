@@ -1,6 +1,6 @@
 package OOP.Basic;
 
-public class ExeptionHandling2 {
+public class ExceptionHandling2 {
     public static void main(String[] args) {
         try {
             System.out.println(1);
