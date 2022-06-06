@@ -18,7 +18,7 @@ class MemoryException extends Exception {
     }
 }
 
-public class CostumException {
+public class CustomException {
     static void startInstall() throws MemoryException, SpaceException {
         if (!enoughMemory()) {
             throw new MemoryException("메모리 용량 부족");
