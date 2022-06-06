@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/OOP/Basic/WhyUseInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Basic/InnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +70,9 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhyUseInterface">
-    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.Interface" />
+  <component name="RunManager" selected="Application.InnerClass">
+    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Basic.InnerClass" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Modifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.Modifier" />
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Basic.Interface" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -138,19 +137,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InnerClass" />
       <item itemvalue="Application.Interface" />
-      <item itemvalue="Application.Modifier" />
       <item itemvalue="Application.PolymorphismForInterface" />
       <item itemvalue="Application.PolymorphismForMethod" />
       <item itemvalue="Application.WhyUseInterface" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerClass" />
         <item itemvalue="Application.WhyUseInterface" />
         <item itemvalue="Application.PolymorphismForInterface" />
         <item itemvalue="Application.Interface" />
         <item itemvalue="Application.PolymorphismForMethod" />
-        <item itemvalue="Application.Modifier" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,7 @@
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
       <workItem from="1653753633711" duration="70955000" />
-      <workItem from="1654270421507" duration="34238000" />
+      <workItem from="1654270421507" duration="35513000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
