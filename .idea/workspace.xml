@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/basicClass/Equals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Basic/CostumException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Basic/CustomException.java" afterDir="false" />
-    </list>
+    <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +172,7 @@
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
       <workItem from="1653753633711" duration="70955000" />
-      <workItem from="1654270421507" duration="47512000" />
+      <workItem from="1654270421507" duration="48321000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
