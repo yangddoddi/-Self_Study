@@ -80,7 +80,7 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToString">
+  <component name="RunManager" selected="Application.HashCode">
     <configuration name="CostumException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Basic.CostumException" />
       <module name="javaStudy" />
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandling2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.ExceptionHandling2" />
+    <configuration name="HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.HashCode" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Basic.*" />
+          <option name="PATTERN" value="basicClassAndMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,17 +149,17 @@
     <list>
       <item itemvalue="Application.CostumException" />
       <item itemvalue="Application.CustomException" />
-      <item itemvalue="Application.ExceptionHandling2" />
+      <item itemvalue="Application.HashCode" />
       <item itemvalue="Application.ToString" />
       <item itemvalue="Application.basicClassAndMethod.Equals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashCode" />
         <item itemvalue="Application.ToString" />
         <item itemvalue="Application.basicClassAndMethod.Equals" />
         <item itemvalue="Application.CustomException" />
         <item itemvalue="Application.CostumException" />
-        <item itemvalue="Application.ExceptionHandling2" />
       </list>
     </recent_temporary>
   </component>
