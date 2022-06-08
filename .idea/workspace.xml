@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/ToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/Clone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/Clone2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -80,13 +82,13 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashCode">
-    <configuration name="CostumException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.CostumException" />
+  <component name="RunManager" selected="Application.Clone2">
+    <configuration name="Clone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.Clone" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Basic.*" />
+          <option name="PATTERN" value="basicClassAndMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Basic.CustomException" />
+    <configuration name="Clone2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.Clone2" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.Basic.*" />
+          <option name="PATTERN" value="basicClassAndMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CostumException" />
-      <item itemvalue="Application.CustomException" />
+      <item itemvalue="Application.Clone" />
+      <item itemvalue="Application.Clone2" />
       <item itemvalue="Application.HashCode" />
       <item itemvalue="Application.ToString" />
       <item itemvalue="Application.basicClassAndMethod.Equals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clone2" />
+        <item itemvalue="Application.Clone" />
         <item itemvalue="Application.HashCode" />
         <item itemvalue="Application.ToString" />
         <item itemvalue="Application.basicClassAndMethod.Equals" />
-        <item itemvalue="Application.CustomException" />
-        <item itemvalue="Application.CostumException" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,7 @@
       <workItem from="1653704722485" duration="13979000" />
       <workItem from="1653753292134" duration="329000" />
       <workItem from="1653753633711" duration="70955000" />
-      <workItem from="1654270421507" duration="48725000" />
+      <workItem from="1654270421507" duration="52088000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
