@@ -1,4 +1,4 @@
-package basicClassAndMethod.Object;
+package basicClassAndMethod.ObjectClass;
 
 class Animal {
     int size;

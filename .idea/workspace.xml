@@ -81,13 +81,13 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.basicClassAndMethod.Object.ClassObj">
-    <configuration name="basicClassAndMethod.Object.ClassObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.Object.ClassObj" />
+  <component name="RunManager" selected="애플리케이션.basicClassAndMethod.ObjectClass.ClassObj">
+    <configuration name="basicClassAndMethod.ObjectClass.ClassObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.ClassObj" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.Object.*" />
+          <option name="PATTERN" value="basicClassAndMethod.ObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basicClassAndMethod.Object.Clone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.Object.Clone" />
+    <configuration name="basicClassAndMethod.ObjectClass.Clone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.Clone" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.Object.*" />
+          <option name="PATTERN" value="basicClassAndMethod.ObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basicClassAndMethod.Object.Clone2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.Object.Clone2" />
+    <configuration name="basicClassAndMethod.ObjectClass.Clone2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.Clone2" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.Object.*" />
+          <option name="PATTERN" value="basicClassAndMethod.ObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basicClassAndMethod.Object.HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.Object.HashCode" />
+    <configuration name="basicClassAndMethod.ObjectClass.HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.HashCode" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.Object.*" />
+          <option name="PATTERN" value="basicClassAndMethod.ObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basicClassAndMethod.Object.ToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.Object.ToString" />
+    <configuration name="basicClassAndMethod.ObjectClass.ToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.ToString" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.Object.*" />
+          <option name="PATTERN" value="basicClassAndMethod.ObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,15 +148,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="애플리케이션.basicClassAndMethod.Object.ClassObj" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.Object.Clone" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.Object.Clone2" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.Object.HashCode" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.Object.ToString" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ClassObj" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.Clone" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.Clone2" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.HashCode" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ToString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.basicClassAndMethod.Object.ClassObj" />
+        <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ClassObj" />
       </list>
     </recent_temporary>
   </component>

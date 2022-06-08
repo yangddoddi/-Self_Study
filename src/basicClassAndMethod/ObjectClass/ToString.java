@@ -1,4 +1,4 @@
-package basicClassAndMethod.Object;
+package basicClassAndMethod.ObjectClass;
 
 // toString 메서드의 기본형태는 다음과 같다
 // public String toString() {  return getClass().getName()+"@"+Integer.toHexString(hashCode()); };

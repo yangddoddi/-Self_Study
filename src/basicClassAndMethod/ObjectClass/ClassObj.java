@@ -1,4 +1,4 @@
-package basicClassAndMethod.Object;
+package basicClassAndMethod.ObjectClass;
 
 import java.util.Arrays;
 
