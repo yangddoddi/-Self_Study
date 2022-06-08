@@ -1,4 +1,4 @@
-package basicClassAndMethod;
+package basicClassAndMethod.Object;
 
 // equals 메서드는 this == obj로 boolean을 반환한다.
 // 즉 참조값을 기준으로 반환하기 때문에 값으로 반환하고 싶다면 Override하면 된다.

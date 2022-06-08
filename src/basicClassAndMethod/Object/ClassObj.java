@@ -1,4 +1,4 @@
-package basicClassAndMethod;
+package basicClassAndMethod.Object;
 
 import java.util.Arrays;
 
@@ -18,7 +18,7 @@ class Animal3 {
         if (!fly) { System.out.println(name+"은 날 수 없다!"); }
     }
 
-    void hunt() { 
+    void hunt() {
         if (carnivorous) { System.out.println(name+"은 사냥 중입니다!"); }
         if (!carnivorous) { System.out.println(name+"은 잡초를 사냥 중입니다!"); }
     }

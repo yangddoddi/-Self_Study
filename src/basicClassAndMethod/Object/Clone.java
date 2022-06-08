@@ -1,4 +1,4 @@
-package basicClassAndMethod;
+package basicClassAndMethod.Object;
 
 class CloneClass implements Cloneable {
     int num;
