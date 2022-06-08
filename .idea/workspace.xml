@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/String/StringBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/String/StringBufferEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicClassAndMethod/ObjectClass/ToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicClassAndMethod/ObjectClass/ToString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.StringBasic">
+  <component name="RunManager" selected="애플리케이션.StringBufferEx">
     <configuration name="Clone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.Clone" />
       <module name="javaStudy" />
@@ -109,25 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.String.StringBasic" />
+    <configuration name="StringBufferEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.String.StringBufferEx" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basicClassAndMethod.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="basicClassAndMethod.ObjectClass.ClassObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.ClassObj" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.ObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,20 +134,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="basicClassAndMethod.String.StringBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.String.StringBasic" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicClassAndMethod.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="애플리케이션.Clone" />
       <item itemvalue="애플리케이션.Equals" />
-      <item itemvalue="애플리케이션.StringBasic" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ClassObj" />
+      <item itemvalue="애플리케이션.StringBufferEx" />
       <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ToString" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.String.StringBasic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.StringBasic" />
+        <item itemvalue="애플리케이션.StringBufferEx" />
+        <item itemvalue="애플리케이션.basicClassAndMethod.String.StringBasic" />
         <item itemvalue="애플리케이션.Clone" />
         <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ToString" />
         <item itemvalue="애플리케이션.Equals" />
-        <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ClassObj" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +177,7 @@
       <workItem from="1653753292134" duration="329000" />
       <workItem from="1653753633711" duration="70955000" />
       <workItem from="1654270421507" duration="53581000" />
-      <workItem from="1654666727499" duration="15912000" />
+      <workItem from="1654666727499" duration="17591000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
