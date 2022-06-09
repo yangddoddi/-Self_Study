@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/String/StringBufferEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/MathClass/MathClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.StringBufferEx">
+  <component name="RunManager" selected="애플리케이션.MathClass">
     <configuration name="Clone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.Clone" />
       <module name="javaStudy" />
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.ObjectClass.Equals" />
+    <configuration name="MathClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.MathClass.MathClass" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.ObjectClass.*" />
+          <option name="PATTERN" value="basicClassAndMethod.MathClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,18 +149,18 @@
     </configuration>
     <list>
       <item itemvalue="애플리케이션.Clone" />
-      <item itemvalue="애플리케이션.Equals" />
+      <item itemvalue="애플리케이션.MathClass" />
       <item itemvalue="애플리케이션.StringBufferEx" />
       <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ToString" />
       <item itemvalue="애플리케이션.basicClassAndMethod.String.StringBasic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MathClass" />
         <item itemvalue="애플리케이션.StringBufferEx" />
         <item itemvalue="애플리케이션.basicClassAndMethod.String.StringBasic" />
         <item itemvalue="애플리케이션.Clone" />
         <item itemvalue="애플리케이션.basicClassAndMethod.ObjectClass.ToString" />
-        <item itemvalue="애플리케이션.Equals" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,8 @@
       <workItem from="1653753292134" duration="329000" />
       <workItem from="1653753633711" duration="70955000" />
       <workItem from="1654270421507" duration="53581000" />
-      <workItem from="1654666727499" duration="17591000" />
+      <workItem from="1654666727499" duration="18611000" />
+      <workItem from="1654708915945" duration="5825000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
