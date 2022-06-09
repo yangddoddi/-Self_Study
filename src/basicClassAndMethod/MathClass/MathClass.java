@@ -47,7 +47,7 @@ public class MathClass {
         double a = c * sin(PI/4);
         double b = c * cos(PI/4);
         double d = toDegrees(atan2(a,b));
-        System.out.printf("a의 길이는 %f이고 b의 길이는 %f이다. 그리고 끼인 각은 %f도이다.%n", a,b,c);
+        System.out.printf("a의 길이는 %f이고 b의 길이는 %f이다. 그리고 끼인 각은 %f도이다.%n", a,b,d);
         // ~ 삼각함수
 
         // float과 double의 정확도
