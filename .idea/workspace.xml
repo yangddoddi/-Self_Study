@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/MathClass/RandomEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicClassAndMethod/MathClass/RandomEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicClassAndMethod/MathClass/RandomEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +178,7 @@
       <workItem from="1653753633711" duration="70955000" />
       <workItem from="1654270421507" duration="53581000" />
       <workItem from="1654666727499" duration="18611000" />
-      <workItem from="1654708915945" duration="15952000" />
+      <workItem from="1654708915945" duration="16421000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
