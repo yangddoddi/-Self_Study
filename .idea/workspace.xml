@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/ObjectsClass/ObjectsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/RandomClass/RandomClass1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ObjectsClass">
+  <component name="RunManager" selected="애플리케이션.RandomClass1">
     <configuration name="MathClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.MathClass.MathClass" />
       <module name="javaStudy" />
@@ -101,6 +101,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basicClassAndMethod.ObjectsClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.RandomClass.RandomClass1" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicClassAndMethod.RandomClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,33 +147,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basicClassAndMethod.String.StringBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.String.StringBasic" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="애플리케이션.ObjectsClass" />
+      <item itemvalue="애플리케이션.RandomClass1" />
       <item itemvalue="애플리케이션.WrapperClass" />
       <item itemvalue="애플리케이션.MathClass" />
       <item itemvalue="애플리케이션.StringBufferEx" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.String.StringBasic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.RandomClass1" />
         <item itemvalue="애플리케이션.ObjectsClass" />
         <item itemvalue="애플리케이션.WrapperClass" />
         <item itemvalue="애플리케이션.MathClass" />
         <item itemvalue="애플리케이션.StringBufferEx" />
-        <item itemvalue="애플리케이션.basicClassAndMethod.String.StringBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,7 @@
       <workItem from="1653753633711" duration="70955000" />
       <workItem from="1654270421507" duration="53581000" />
       <workItem from="1654666727499" duration="18611000" />
-      <workItem from="1654708915945" duration="12483000" />
+      <workItem from="1654708915945" duration="13388000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
