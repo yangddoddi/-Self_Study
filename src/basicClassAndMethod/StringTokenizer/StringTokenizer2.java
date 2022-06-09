@@ -9,7 +9,7 @@ public class StringTokenizer2 {
         while ( strToken.hasMoreTokens() ) { // | 을 기준으로 먼저 나눈다
             String token = strToken.nextToken();
             StringTokenizer strToken2 = new StringTokenizer(token,",", false);
-            while (strToken2.hasMoreTokens()) { 
+            while (strToken2.hasMoreTokens()) {
                 System.out.println(strToken2.nextToken());
             }
             System.out.println("---------");
