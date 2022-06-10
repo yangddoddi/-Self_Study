@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/FormatClass/SimpleDateFormatEX2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/FormatClass/ChoiceFormatEX.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +81,13 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.SimpleDateFormatEX2">
-    <configuration name="CalendarAndDate3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.CalendarAndDate.CalendarAndDate3" />
+  <component name="RunManager" selected="애플리케이션.ChoiceFormatEX">
+    <configuration name="ChoiceFormatEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.ChoiceFormatEX" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.CalendarAndDate.*" />
+          <option name="PATTERN" value="basicClassAndMethod.FormatClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatEX2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.SimpleDateFormatEX2" />
+    <configuration name="SimpleDateFormatEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.SimpleDateFormatEX" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basicClassAndMethod.FormatClass.SimpleDateFormatEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.SimpleDateFormatEX" />
+    <configuration name="basicClassAndMethod.FormatClass.SimpleDateFormatEX2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.SimpleDateFormatEX2" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -142,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="애플리케이션.CalendarAndDate3" />
+      <item itemvalue="애플리케이션.ChoiceFormatEX" />
       <item itemvalue="애플리케이션.DecimalFormatEX" />
-      <item itemvalue="애플리케이션.SimpleDateFormatEX2" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.DecimalFormatEX" />
       <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.SimpleDateFormatEX" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.DecimalFormatEX" />
+      <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.SimpleDateFormatEX2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.SimpleDateFormatEX2" />
+        <item itemvalue="애플리케이션.ChoiceFormatEX" />
+        <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.SimpleDateFormatEX2" />
         <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.SimpleDateFormatEX" />
         <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.DecimalFormatEX" />
         <item itemvalue="애플리케이션.DecimalFormatEX" />
-        <item itemvalue="애플리케이션.CalendarAndDate3" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,7 @@
       <workItem from="1653753633711" duration="70955000" />
       <workItem from="1654270421507" duration="53581000" />
       <workItem from="1654666727499" duration="18611000" />
-      <workItem from="1654708915945" duration="54681000" />
+      <workItem from="1654708915945" duration="55541000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
