@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/javaTimePackage/javaTimePackage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicClassAndMethod/javaTimePackage/javaTimePackage3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicClassAndMethod/javaTimePakage/javaTimePakage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicClassAndMethod/javaTimePackage/javaTimePackage1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.javaTimePackage2">
+  <component name="RunManager" selected="애플리케이션.javaTimePackage3">
     <configuration name="MessageFormatEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.MessageFormatEX" />
       <module name="javaStudy" />
@@ -99,19 +98,6 @@
     </configuration>
     <configuration name="MessageFormatEX2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.MessageFormatEX2" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.FormatClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="basicClassAndMethod.FormatClass.ChoiceFormatEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.FormatClass.ChoiceFormatEX" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -149,20 +135,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javaTimePackage3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.javaTimePackage.javaTimePackage3" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicClassAndMethod.javaTimePackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="애플리케이션.MessageFormatEX" />
       <item itemvalue="애플리케이션.MessageFormatEX2" />
-      <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.ChoiceFormatEX" />
       <item itemvalue="애플리케이션.basicClassAndMethod.javaTimePackage.javaTimePackage1" />
       <item itemvalue="애플리케이션.javaTimePackage2" />
+      <item itemvalue="애플리케이션.javaTimePackage3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.javaTimePackage3" />
         <item itemvalue="애플리케이션.javaTimePackage2" />
         <item itemvalue="애플리케이션.basicClassAndMethod.javaTimePackage.javaTimePackage1" />
         <item itemvalue="애플리케이션.MessageFormatEX2" />
         <item itemvalue="애플리케이션.MessageFormatEX" />
-        <item itemvalue="애플리케이션.basicClassAndMethod.FormatClass.ChoiceFormatEX" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +179,7 @@
       <workItem from="1653753633711" duration="70955000" />
       <workItem from="1654270421507" duration="53581000" />
       <workItem from="1654666727499" duration="18611000" />
-      <workItem from="1654708915945" duration="70979000" />
+      <workItem from="1654708915945" duration="72089000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
