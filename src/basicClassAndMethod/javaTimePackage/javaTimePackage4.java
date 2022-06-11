@@ -62,5 +62,15 @@ public class javaTimePackage4 {
 
         // 사실 굳이 Duration이나 Period를 사용하지 않아도 LocalDate는 toEpoch로 -연산
         // LocalTime은 toSecondOfDay 메서드를 이용해 시간 차를 계산할 수 있음
+        long day = christmasDay.toEpochDay() - nowDay.toEpochDay();
+        long second = christmasTime.toSecondOfDay() - nowTime.toSecondOfDay();
+
+        System.out.println(day);
+        System.out.println(second);
+
+        LocalDate date2 = LocalDate.ofEpochDay(day);
+        LocalTime time2 = LocalTime.of(0,0,0).plusSeconds(second);
+        System.out.println(day);
+        System.out.println(time2.getHour() + " " + time2.getMinute() + " " + time2.getSecond());
     }
 }
