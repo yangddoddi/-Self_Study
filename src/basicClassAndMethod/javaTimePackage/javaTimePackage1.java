@@ -1,12 +1,10 @@
-package basicClassAndMethod.javaTimePakage;
+package basicClassAndMethod.javaTimePackage;
 
 import java.time.*;
-import java.time.chrono.Era;
 import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalField;
 
-public class javaTimePakage1 {
+public class javaTimePackage1 {
     public static void main(String[] args) {
         LocalDate date = LocalDate.now();
         LocalTime time = LocalTime.now();
