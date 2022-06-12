@@ -11,16 +11,11 @@ public class IteratorEX2 {
         }
         System.out.println(test);
 
-        Iterator it = test.iterator();
-        while ( it.hasNext() ) {
-            System.out.println(it.next());
-        }
-
         Iterator it2 = test.iterator();
-        while ( it.hasNext() ) {
-            it.next();
-            it.remove();
-        }
+        it2.next();
+        it2.remove();
+        it2.next();
+        it2.remove();
         System.out.println(it2);
     }
 }

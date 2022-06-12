@@ -60,7 +60,6 @@ public class MyArrayList<T> implements List {
         for (int i = 0; i < this.obj.length; i++) {
             if (this.obj[i] == o) {
                 remove(i);
-                size--;
                 return true;
             }
         }
