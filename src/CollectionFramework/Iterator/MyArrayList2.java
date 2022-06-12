@@ -52,8 +52,8 @@ public class MyArrayList2<T> extends MyArrayList<T> implements Iterator<T> {
         if (lastRet == -1) {
             throw new IllegalStateException();
         }
+        remove(get(lastRet));
         lastRet = -1; // next가 선행되지 않는다면 remove를 불가능한 상태로.
-        remove(get(cursor));
         cursor--;
     }
 }
