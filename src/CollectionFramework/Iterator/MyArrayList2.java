@@ -20,7 +20,7 @@ public class MyArrayList2<T> extends MyArrayList<T> implements Iterator<T> {
         String str = "";
         Iterator<T> it = this.iterator();
         while (it.hasNext()) {
-            if ( cursor != size()-1 ) {
+            if ( cursor != size()-1 ) { // cursor가 마지막이라면 쉼표 x
             str = str + it.next() + ", "; }
             else {
                 str += it.next();

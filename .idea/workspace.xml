@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/IteratorEX2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/IteratorEX2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/MyArrayList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/MyArrayList2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,7 @@
       <workItem from="1654708915945" duration="102313000" />
       <workItem from="1654969760223" duration="22744000" />
       <workItem from="1655046341494" duration="775000" />
-      <workItem from="1655047132468" duration="2876000" />
+      <workItem from="1655047132468" duration="3654000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
