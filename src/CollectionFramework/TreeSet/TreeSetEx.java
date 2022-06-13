@@ -26,5 +26,6 @@ public class TreeSetEx {
         System.out.println("tree2.headSet(50) = " + tree2.headSet(50)); // 50 '미만'의 값
         // 이진트리에서 원을 그렸을 때 노드의 왼쪽 아래 노드부터 원을 그리면 headSet 노드를 포함해서 오른쪽으로 원을 그리면 tailSet
 
+
     }
 }
