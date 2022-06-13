@@ -43,7 +43,7 @@ public class ArrayList1 {
 //        // list2에서 list1과 같은 객체 제외하고 모두 제거
 //        System.out.println("list2.removeAll(list1) => list2 : " + list2);
 
-        for (int i=list2.size()-1; i<list2.size(); i--) {
+        for (int i=list2.size()-1; i>=0; i--) {
             if (list1.contains(list2.get(i))) {
                 list2.remove(i);
             }

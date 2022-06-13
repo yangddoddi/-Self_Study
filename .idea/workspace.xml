@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/HashMap/HashMapEx4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/ArrayList/ArrayList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/ArrayList/ArrayList1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +82,13 @@
       <recent name="OOP.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.HashMapEx4">
-    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.HashMap.HashMapEx" />
+  <component name="RunManager" selected="애플리케이션.ArrayList1">
+    <configuration name="ArrayList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.ArrayList.ArrayList1" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFramework.HashMap.*" />
+          <option name="PATTERN" value="CollectionFramework.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.HashMap.HashMapEx2" />
+    <configuration name="ArrayList3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.ArrayList.ArrayList3" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFramework.HashMap.*" />
+          <option name="PATTERN" value="CollectionFramework.ArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.ArrayList.ArrayListEX" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionFramework.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,33 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.TreeSet.TreeSetEx" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CollectionFramework.TreeSet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="애플리케이션.HashMapEx" />
-      <item itemvalue="애플리케이션.HashMapEx2" />
+      <item itemvalue="애플리케이션.ArrayList1" />
+      <item itemvalue="애플리케이션.ArrayList3" />
+      <item itemvalue="애플리케이션.ArrayListEX" />
       <item itemvalue="애플리케이션.HashMapEx3" />
       <item itemvalue="애플리케이션.HashMapEx4" />
-      <item itemvalue="애플리케이션.TreeSetEx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ArrayList1" />
+        <item itemvalue="애플리케이션.ArrayListEX" />
+        <item itemvalue="애플리케이션.ArrayList3" />
         <item itemvalue="애플리케이션.HashMapEx4" />
         <item itemvalue="애플리케이션.HashMapEx3" />
-        <item itemvalue="애플리케이션.HashMapEx2" />
-        <item itemvalue="애플리케이션.HashMapEx" />
-        <item itemvalue="애플리케이션.TreeSetEx" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,7 @@
       <workItem from="1654708915945" duration="102313000" />
       <workItem from="1654969760223" duration="22744000" />
       <workItem from="1655046341494" duration="775000" />
-      <workItem from="1655047132468" duration="25900000" />
+      <workItem from="1655047132468" duration="27227000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
