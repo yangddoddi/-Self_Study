@@ -1,5 +1,4 @@
 package CollectionFramework.Iterator;
-
 import java.util.*;
 
 public class IteratorEX1 {
