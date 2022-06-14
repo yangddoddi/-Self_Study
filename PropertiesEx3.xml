@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>예제</comment>
+<entry key="성별">남성</entry>
+<entry key="이름">양모시기</entry>
+<entry key="소원">쾌변</entry>
+<entry key="나이">9세</entry>
+</properties>
