@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Enums/EnumsStudy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enums/EnumsStudy3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,20 +85,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.EnumsStudy2">
-    <configuration name="CollectionsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Collections.CollectionsEx" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CollectionFramework.Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.EnumsStudy3">
     <configuration name="EnumsStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Enums.EnumsStudy" />
       <module name="javaStudy" />
@@ -114,6 +101,19 @@
     </configuration>
     <configuration name="EnumsStudy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Enums.EnumsStudy2" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumsStudy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enums.EnumsStudy3" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -152,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="애플리케이션.CollectionsEx" />
       <item itemvalue="애플리케이션.EnumsStudy" />
       <item itemvalue="애플리케이션.EnumsStudy2" />
+      <item itemvalue="애플리케이션.EnumsStudy3" />
       <item itemvalue="애플리케이션.GenericsBasic" />
       <item itemvalue="애플리케이션.GenericsBasic2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.EnumsStudy3" />
         <item itemvalue="애플리케이션.EnumsStudy2" />
         <item itemvalue="애플리케이션.EnumsStudy" />
         <item itemvalue="애플리케이션.GenericsBasic2" />
         <item itemvalue="애플리케이션.GenericsBasic" />
-        <item itemvalue="애플리케이션.CollectionsEx" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +185,7 @@
       <workItem from="1654708915945" duration="102313000" />
       <workItem from="1654969760223" duration="22744000" />
       <workItem from="1655046341494" duration="775000" />
-      <workItem from="1655047132468" duration="65255000" />
+      <workItem from="1655047132468" duration="71417000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
