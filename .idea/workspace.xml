@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadStudy8_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadStudy9_Method.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,20 +85,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ThreadStudy8_Method">
-    <configuration name="ThreadStudy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadStudy5" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.ThreadStudy9_Method">
     <configuration name="ThreadStudy6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.ThreadStudy6" />
       <module name="javaStudy" />
@@ -151,8 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadStudy9_Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadStudy9_Method" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="애플리케이션.ThreadStudy5" />
+      <item itemvalue="애플리케이션.ThreadStudy9_Method" />
       <item itemvalue="애플리케이션.ThreadStudy6" />
       <item itemvalue="애플리케이션.ThreadStudy7" />
       <item itemvalue="애플리케이션.ThreadStudy7_sleepEx" />
@@ -160,11 +160,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ThreadStudy9_Method" />
         <item itemvalue="애플리케이션.ThreadStudy8_Method" />
         <item itemvalue="애플리케이션.ThreadStudy7_sleepEx" />
         <item itemvalue="애플리케이션.ThreadStudy7" />
         <item itemvalue="애플리케이션.ThreadStudy6" />
-        <item itemvalue="애플리케이션.ThreadStudy5" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +185,8 @@
       <workItem from="1654708915945" duration="102313000" />
       <workItem from="1654969760223" duration="22744000" />
       <workItem from="1655046341494" duration="775000" />
-      <workItem from="1655047132468" duration="89596000" />
+      <workItem from="1655047132468" duration="90984000" />
+      <workItem from="1655408669776" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
