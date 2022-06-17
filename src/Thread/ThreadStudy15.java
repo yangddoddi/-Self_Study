@@ -29,6 +29,7 @@ public class ThreadStudy15 {
         System.out.printf("sum of %d~%d=%d%n", from, to, result);
         // 결과를 보면 결국 for문으로 계산한 것이 두배가량 더 빠르다.
         // 최대한 나눠서 계산했을 때 효율을 얻을 수 있는 작업이 아닌 이상 join fork가 필요하지는 않다.
+        // 작업을 나누고 합치는데 시간이 걸리기 때문이다.
     }
 }
 
