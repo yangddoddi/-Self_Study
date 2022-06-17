@@ -65,9 +65,9 @@ class Table2 {
 }
 
 class Cook2 implements Runnable {
-    private Table table;
+    private Table2 table;
 
-    Cook(Table t) {
+    public Cook2(Table2 t) {
         this.table = t;
     }
 
