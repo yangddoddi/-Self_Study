@@ -9,6 +9,7 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
+// 스트림의 기본 생성과 활용법
 public class StreamStudy1 {
     public static void main(String[] args) {
         String[] strArr = { "hhh", "bbb", "ccc"};
@@ -122,5 +123,6 @@ public class StreamStudy1 {
         int[] bbb = bbStream.sorted().toArray();
         System.out.println(Arrays.toString(aaa));
         System.out.println(Arrays.toString(bbb));
+
     }
 }
