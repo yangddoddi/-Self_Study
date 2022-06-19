@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,20 +84,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.StreamStudy7">
-    <configuration name="StreamStudy4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy4" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.ioStudy2">
     <configuration name="StreamStudy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy5" />
       <module name="javaStudy" />
@@ -150,15 +137,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ioStudy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy2" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InputAndOutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="애플리케이션.StreamStudy4" />
       <item itemvalue="애플리케이션.StreamStudy5" />
       <item itemvalue="애플리케이션.StreamStudy6" />
       <item itemvalue="애플리케이션.StreamStudy7" />
       <item itemvalue="애플리케이션.StringBufferEx" />
+      <item itemvalue="애플리케이션.ioStudy2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ioStudy2" />
         <item itemvalue="애플리케이션.StreamStudy7" />
         <item itemvalue="애플리케이션.StringBufferEx" />
         <item itemvalue="애플리케이션.StreamStudy6" />
@@ -190,7 +191,7 @@
       <workItem from="1655576652199" duration="12663000" />
       <workItem from="1655625947152" duration="4537000" />
       <workItem from="1655630510133" duration="6513000" />
-      <workItem from="1655641418946" duration="4082000" />
+      <workItem from="1655641418946" duration="4954000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
