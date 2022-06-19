@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,13 +85,14 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ioStudy4">
-    <configuration name="StreamStudy7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy7" />
+  <component name="RunManager" selected="애플리케이션.ioStudy5">
+    <configuration name="InputAndOutput.ioStudy4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy4" />
       <module name="javaStudy" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;ioStudy.java&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.*" />
+          <option name="PATTERN" value="InputAndOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.String.StringBufferEx" />
+    <configuration name="StreamStudy7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy7" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicClassAndMethod.String.*" />
+          <option name="PATTERN" value="Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,9 +139,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ioStudy4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy4" />
+    <configuration name="ioStudy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy5" />
       <module name="javaStudy" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;ioStudy.java&quot; &quot;ioStudy.bak&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InputAndOutput.*" />
@@ -152,19 +154,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.ioStudy5" />
       <item itemvalue="애플리케이션.ioStudy3" />
-      <item itemvalue="애플리케이션.ioStudy4" />
+      <item itemvalue="애플리케이션.InputAndOutput.ioStudy4" />
       <item itemvalue="애플리케이션.StreamStudy7" />
-      <item itemvalue="애플리케이션.StringBufferEx" />
       <item itemvalue="애플리케이션.ioStudy2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ioStudy4" />
+        <item itemvalue="애플리케이션.ioStudy5" />
+        <item itemvalue="애플리케이션.InputAndOutput.ioStudy4" />
         <item itemvalue="애플리케이션.ioStudy3" />
         <item itemvalue="애플리케이션.ioStudy2" />
         <item itemvalue="애플리케이션.StreamStudy7" />
-        <item itemvalue="애플리케이션.StringBufferEx" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,7 @@
       <workItem from="1655625947152" duration="4537000" />
       <workItem from="1655630510133" duration="6513000" />
       <workItem from="1655641418946" duration="6094000" />
-      <workItem from="1655658264543" duration="1698000" />
+      <workItem from="1655658264543" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
