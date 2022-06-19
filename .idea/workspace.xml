@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Stream/StreamStudy4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/StreamStudy6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/StreamStudy7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/StreamStudy5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/StreamStudy5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,59 +87,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.StreamStudy4">
-    <configuration name="LambdaStudy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpression.LambdaStudy3" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LambdaExpression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamStudy1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy1" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamStudy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy2" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamStudy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy3" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.StreamStudy7">
     <configuration name="StreamStudy4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy4" />
       <module name="javaStudy" />
@@ -151,20 +101,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamStudy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy5" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamStudy6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy6" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamStudy7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy7" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBufferEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicClassAndMethod.String.StringBufferEx" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicClassAndMethod.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="애플리케이션.StreamStudy4" />
-      <item itemvalue="애플리케이션.StreamStudy3" />
-      <item itemvalue="애플리케이션.LambdaStudy3" />
-      <item itemvalue="애플리케이션.StreamStudy1" />
-      <item itemvalue="애플리케이션.StreamStudy2" />
+      <item itemvalue="애플리케이션.StreamStudy5" />
+      <item itemvalue="애플리케이션.StreamStudy6" />
+      <item itemvalue="애플리케이션.StreamStudy7" />
+      <item itemvalue="애플리케이션.StringBufferEx" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.StreamStudy4" />
-        <item itemvalue="애플리케이션.StreamStudy3" />
-        <item itemvalue="애플리케이션.StreamStudy2" />
-        <item itemvalue="애플리케이션.StreamStudy1" />
-        <item itemvalue="애플리케이션.LambdaStudy3" />
+        <item itemvalue="애플리케이션.StreamStudy7" />
+        <item itemvalue="애플리케이션.StringBufferEx" />
+        <item itemvalue="애플리케이션.StreamStudy6" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +190,10 @@
       <workItem from="1655567802209" duration="2080000" />
       <workItem from="1655570085884" duration="1973000" />
       <workItem from="1655576477060" duration="144000" />
-      <workItem from="1655576652199" duration="7405000" />
+      <workItem from="1655576652199" duration="12663000" />
+      <workItem from="1655625947152" duration="4537000" />
+      <workItem from="1655630510133" duration="6513000" />
+      <workItem from="1655641418946" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
