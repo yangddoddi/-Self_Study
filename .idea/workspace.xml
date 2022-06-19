@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Stream/StreamStudy6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/StreamStudy7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/StreamStudy5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/StreamStudy5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,7 @@
       <workItem from="1655576652199" duration="12663000" />
       <workItem from="1655625947152" duration="4537000" />
       <workItem from="1655630510133" duration="6513000" />
-      <workItem from="1655641418946" duration="3232000" />
+      <workItem from="1655641418946" duration="4082000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
