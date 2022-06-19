@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputAndOutput/ioStudy10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +86,10 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ioStudy9">
-    <configuration name="ioStudy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy5" />
+  <component name="RunManager" selected="애플리케이션.ioStudy11">
+    <configuration name="ioStudy10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy10" />
       <module name="javaStudy" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;ioStudy.java&quot; &quot;ioStudy.bak&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InputAndOutput.*" />
@@ -101,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ioStudy6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy6" />
+    <configuration name="ioStudy11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy11" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -154,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="애플리케이션.ioStudy6" />
+      <item itemvalue="애플리케이션.ioStudy10" />
+      <item itemvalue="애플리케이션.ioStudy11" />
       <item itemvalue="애플리케이션.ioStudy7" />
       <item itemvalue="애플리케이션.ioStudy8" />
       <item itemvalue="애플리케이션.ioStudy9" />
-      <item itemvalue="애플리케이션.ioStudy5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ioStudy11" />
+        <item itemvalue="애플리케이션.ioStudy10" />
         <item itemvalue="애플리케이션.ioStudy9" />
         <item itemvalue="애플리케이션.ioStudy8" />
         <item itemvalue="애플리케이션.ioStudy7" />
-        <item itemvalue="애플리케이션.ioStudy6" />
-        <item itemvalue="애플리케이션.ioStudy5" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +197,7 @@
       <workItem from="1655641418946" duration="6094000" />
       <workItem from="1655658264543" duration="8337000" />
       <workItem from="1655668418147" duration="249000" />
-      <workItem from="1655668669923" duration="351000" />
+      <workItem from="1655668669923" duration="2755000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
