@@ -7,7 +7,7 @@ import java.io.*;
 public class ioStudy19 {
     public static void main(String[] args) {
         String fileName = "3.txt";
-        final int VOLUME = 10000;
+        final int VOLUME = 1000000;
         try {
             FileInputStream fis = new FileInputStream(fileName);
             BufferedInputStream bis = new BufferedInputStream(fis);
