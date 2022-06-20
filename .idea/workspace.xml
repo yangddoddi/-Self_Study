@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,26 +85,13 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ioStudy14">
+  <component name="RunManager" selected="애플리케이션.ioStudy15">
     <configuration name="LottoNumMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.LottoNumMaker" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamStudy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.StreamStudy5" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,20 +138,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ioStudy15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy15" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InputAndOutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="애플리케이션.LottoNumMaker" />
-      <item itemvalue="애플리케이션.StreamStudy5" />
       <item itemvalue="애플리케이션.ioStudy12" />
       <item itemvalue="애플리케이션.ioStudy13" />
       <item itemvalue="애플리케이션.ioStudy14" />
+      <item itemvalue="애플리케이션.ioStudy15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ioStudy15" />
         <item itemvalue="애플리케이션.ioStudy14" />
         <item itemvalue="애플리케이션.LottoNumMaker" />
         <item itemvalue="애플리케이션.ioStudy13" />
         <item itemvalue="애플리케이션.ioStudy12" />
-        <item itemvalue="애플리케이션.StreamStudy5" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +196,7 @@
       <workItem from="1655641418946" duration="6094000" />
       <workItem from="1655658264543" duration="8337000" />
       <workItem from="1655668418147" duration="249000" />
-      <workItem from="1655668669923" duration="7448000" />
+      <workItem from="1655668669923" duration="8980000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
