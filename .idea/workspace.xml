@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Networking/NetworkingStudy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +75,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/eunchanyang/Desktop/java/javaStudy&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/eunchanyang/Desktop/java/javaStudy",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOP.Basic" />
@@ -91,7 +93,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.NetworkingStudy1">
+  <component name="RunManager" selected="애플리케이션.NetworkingStudy4">
     <configuration name="NetworkingStudy1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy1" />
       <module name="javaStudy" />
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ioStudy19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy19" />
+    <configuration name="NetworkingStudy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy2" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputAndOutput.*" />
+          <option name="PATTERN" value="Networking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ioStudy20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy20" />
+    <configuration name="NetworkingStudy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy3" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputAndOutput.*" />
+          <option name="PATTERN" value="Networking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ioStudy21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy21" />
+    <configuration name="NetworkingStudy4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy4" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputAndOutput.*" />
+          <option name="PATTERN" value="Networking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +160,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.NetworkingStudy4" />
       <item itemvalue="애플리케이션.NetworkingStudy1" />
-      <item itemvalue="애플리케이션.ioStudy19" />
-      <item itemvalue="애플리케이션.ioStudy20" />
-      <item itemvalue="애플리케이션.ioStudy21" />
+      <item itemvalue="애플리케이션.NetworkingStudy2" />
+      <item itemvalue="애플리케이션.NetworkingStudy3" />
       <item itemvalue="애플리케이션.ioStudy22" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.NetworkingStudy4" />
+        <item itemvalue="애플리케이션.NetworkingStudy3" />
+        <item itemvalue="애플리케이션.NetworkingStudy2" />
         <item itemvalue="애플리케이션.NetworkingStudy1" />
         <item itemvalue="애플리케이션.ioStudy22" />
-        <item itemvalue="애플리케이션.ioStudy21" />
-        <item itemvalue="애플리케이션.ioStudy19" />
-        <item itemvalue="애플리케이션.ioStudy20" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +205,8 @@
       <workItem from="1655658264543" duration="8337000" />
       <workItem from="1655668418147" duration="249000" />
       <workItem from="1655668669923" duration="28609000" />
-      <workItem from="1655753232805" duration="13109000" />
+      <workItem from="1655753232805" duration="21691000" />
+      <workItem from="1655828506281" duration="3519000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
@@ -244,6 +247,10 @@
           <properties class="java.io.NotSerializableException" package="java.io" />
           <option name="timeStamp" value="51" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.UnknownHostException" package="java.net" />
+          <option name="timeStamp" value="52" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CollectionFramework/Iterator/MyArrayList2.java</url>
           <line>50</line>
@@ -273,5 +280,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
