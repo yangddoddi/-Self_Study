@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/3.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/InputAndOutput/ioStudy17.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/InputAndOutput/ioStudy19.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/InputAndOutput/ioStudy20.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/InputAndOutput/ioStudy21.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/OOP/Basic/ExceptionHandling.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/OOP/Basic/ExceptionHandling2.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/OOP/Basic/ExceptionHandling3.java" root0="FORCE_HIGHLIGHTING" />
@@ -84,20 +91,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ioStudy21">
-    <configuration name="ioStudy17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy17" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InputAndOutput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.ioStudy22">
     <configuration name="ioStudy18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy18" />
       <module name="javaStudy" />
@@ -150,20 +144,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ioStudy22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy22" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InputAndOutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="애플리케이션.ioStudy19" />
       <item itemvalue="애플리케이션.ioStudy20" />
       <item itemvalue="애플리케이션.ioStudy21" />
-      <item itemvalue="애플리케이션.ioStudy17" />
+      <item itemvalue="애플리케이션.ioStudy22" />
       <item itemvalue="애플리케이션.ioStudy18" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ioStudy22" />
         <item itemvalue="애플리케이션.ioStudy21" />
         <item itemvalue="애플리케이션.ioStudy19" />
         <item itemvalue="애플리케이션.ioStudy20" />
         <item itemvalue="애플리케이션.ioStudy18" />
-        <item itemvalue="애플리케이션.ioStudy17" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +203,7 @@
       <workItem from="1655658264543" duration="8337000" />
       <workItem from="1655668418147" duration="249000" />
       <workItem from="1655668669923" duration="28609000" />
-      <workItem from="1655753232805" duration="3610000" />
+      <workItem from="1655753232805" duration="10966000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
@@ -232,6 +239,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.NotSerializableException" package="java.io" />
+          <option name="timeStamp" value="51" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CollectionFramework/Iterator/MyArrayList2.java</url>
