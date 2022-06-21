@@ -35,25 +35,49 @@ package Networking;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketTimeoutException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+// 서버로부터 데이터 출력 (서버)
+public class NetworkingStudy3 implements Runnable {
+    static ServerSocket serverSocket = null;
+    static Thread[] threads;
 
-public class NetworkingStudy3 {
     public static void main(String[] args) {
-        // 서버로부터 데이터 출력 (서버)
-        ServerSocket serverSocket = null;
+        // 5개의 쓰레드를 생성하는 서버
+        NetworkingStudy3 server = new NetworkingStudy3(5);
+        server.start();
+    }
+
+    public NetworkingStudy3(int num) {
         try {
-            serverSocket = new ServerSocket(7777); // 8080 포트와 서버 소켓 결합
+            // 서버 소켓을 생성하여 7777포트와 바인딩
+            serverSocket = new ServerSocket(7777);
             System.out.println(getTime() + " 서버 준비 완료");
+            threads = new Thread[num];
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void start() {
+        for(int i=0; i < threads.length; i++) {
+            threads[i] = new Thread(this);
+            threads[i].start();
+    }
+}
+
+public void run() {
         while (true) {
             try {
                 System.out.println(getTime() + " 연결 대기 중 ");
+                serverSocket.setSoTimeout(1000*5); // 5초 동안 요청이 들어오지 않으면 SocketTimeoutException이 발생
                 // 클라이언트 요청 시까지 계속 대기하기 때문에 NetworkingStudy4 예제에서 요청을 보내지 않으면 여기서 더이상 진행되지 않는다.
-                Socket socket = serverSocket.accept();
+                Socket socket = serverSocket.accept(); // 요청 들어오면 새로운 소켓 생성
                 System.out.println(getTime() + " " + socket.getInetAddress() + "로부터 연결");
+                System.out.println("getPort() : " + socket.getPort()); // 클라이언트 소켓이 사용하는 포트와 서버 소켓 포트는 같을 수 있다.
+                System.out.println("getLocalPort() : " + socket.getLocalPort()); // 서버가 사용하는 포트는 (새롭게 생성된 서버 포트와는) 같을 수 없다.
+
                 // 소켓의 출력 스트림 얻기
                 OutputStream os = socket.getOutputStream();
                 DataOutputStream dos = new DataOutputStream(os);
@@ -64,6 +88,9 @@ public class NetworkingStudy3 {
 
                 dos.close();
                 socket.close();
+            } catch (SocketTimeoutException e) {
+              System.out.println(getTime() + " 지연 시간 경과 ");
+              System.exit(0);
             } catch (IOException e) {
                 e.printStackTrace();
             }

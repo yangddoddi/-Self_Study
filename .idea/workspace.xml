@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Networking/NetworkingStudy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Networking/NetworkingStudy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,7 @@
       <workItem from="1655668418147" duration="249000" />
       <workItem from="1655668669923" duration="28609000" />
       <workItem from="1655753232805" duration="21691000" />
-      <workItem from="1655828506281" duration="3519000" />
+      <workItem from="1655828506281" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
