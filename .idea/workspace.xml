@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/InputAndOutput/ioStudy22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,13 +91,13 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ioStudy22">
-    <configuration name="ioStudy18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputAndOutput.ioStudy18" />
+  <component name="RunManager" selected="애플리케이션.NetworkingStudy1">
+    <configuration name="NetworkingStudy1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy1" />
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputAndOutput.*" />
+          <option name="PATTERN" value="Networking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +158,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.NetworkingStudy1" />
       <item itemvalue="애플리케이션.ioStudy19" />
       <item itemvalue="애플리케이션.ioStudy20" />
       <item itemvalue="애플리케이션.ioStudy21" />
       <item itemvalue="애플리케이션.ioStudy22" />
-      <item itemvalue="애플리케이션.ioStudy18" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.NetworkingStudy1" />
         <item itemvalue="애플리케이션.ioStudy22" />
         <item itemvalue="애플리케이션.ioStudy21" />
         <item itemvalue="애플리케이션.ioStudy19" />
         <item itemvalue="애플리케이션.ioStudy20" />
-        <item itemvalue="애플리케이션.ioStudy18" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,7 @@
       <workItem from="1655658264543" duration="8337000" />
       <workItem from="1655668418147" duration="249000" />
       <workItem from="1655668669923" duration="28609000" />
-      <workItem from="1655753232805" duration="10966000" />
+      <workItem from="1655753232805" duration="13109000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
