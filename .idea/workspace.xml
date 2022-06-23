@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy7_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy7_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Networking/NetworkingStudy5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Networking/NetworkingStudy6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Networking/NetworkingStudy6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,46 +95,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.NetworkingStudy5">
-    <configuration name="NetworkingStudy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy2" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Networking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NetworkingStudy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy3" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Networking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NetworkingStudy4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy4" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Networking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.NetworkingStudy7">
     <configuration name="NetworkingStudy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy5" />
       <module name="javaStudy" />
@@ -158,20 +122,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NetworkingStudy7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy7" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Networking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkingStudy7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy7_2" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Networking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetworkingStudy7_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Networking.NetworkingStudy7_3" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Networking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="애플리케이션.NetworkingStudy4" />
       <item itemvalue="애플리케이션.NetworkingStudy5" />
       <item itemvalue="애플리케이션.NetworkingStudy6" />
-      <item itemvalue="애플리케이션.NetworkingStudy2" />
-      <item itemvalue="애플리케이션.NetworkingStudy3" />
+      <item itemvalue="애플리케이션.NetworkingStudy7" />
+      <item itemvalue="애플리케이션.NetworkingStudy7_2" />
+      <item itemvalue="애플리케이션.NetworkingStudy7_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.NetworkingStudy7" />
         <item itemvalue="애플리케이션.NetworkingStudy6" />
+        <item itemvalue="애플리케이션.NetworkingStudy7_2" />
+        <item itemvalue="애플리케이션.NetworkingStudy7_3" />
         <item itemvalue="애플리케이션.NetworkingStudy5" />
-        <item itemvalue="애플리케이션.NetworkingStudy4" />
-        <item itemvalue="애플리케이션.NetworkingStudy3" />
-        <item itemvalue="애플리케이션.NetworkingStudy2" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +208,7 @@
       <workItem from="1655668418147" duration="249000" />
       <workItem from="1655668669923" duration="28609000" />
       <workItem from="1655753232805" duration="21691000" />
-      <workItem from="1655828506281" duration="9401000" />
+      <workItem from="1655828506281" duration="31438000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
