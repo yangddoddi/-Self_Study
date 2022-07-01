@@ -26,7 +26,7 @@ public class Main {
                 sum += i;
             }
         }
-        
+
         if (numArr.size() == 0) {
             System.out.println(-1);
         } else {
