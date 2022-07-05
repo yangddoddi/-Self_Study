@@ -11,18 +11,19 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int testCase = Integer.parseInt(br.readLine());
 
-        for (int t=0; t<testCase; t++) {
+        while ( testCase-- > 0 ) {
             int inputNum = Integer.parseInt(br.readLine());
-            loop : for (int i=inputNum/2; i<inputNum; i++) {
-                for (int j=inputNum/2; j>0; j--) {
-                    if (!numArr[i] && !numArr[j]) {
-                        if ( inputNum - i - j == 0 )
-                        {
-                            System.out.println(j + " " + i);
-                            break loop;
-                        }
-                    }
+
+            int index1 = inputNum/2;
+            int index2 = inputNum/2;
+
+            for (;;) {
+                if ( !numArr[index1] && !numArr[index2] ) {
+                    System.out.println(index1 + " " + index2);
+                    break;
                 }
+                index1--;
+                index2++;
             }
         }
     }
