@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/javaPractice/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaPractice/ElectricityBill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaPractice/ElectricityBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaPractice/ElectricityBill.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,15 +93,13 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkingStudy7">
-    <configuration name="NetworkingStudy7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="standardOfJava.Networking.NetworkingStudy7" />
+  <component name="RunManager" selected="Application.ElectricityBill">
+    <configuration name="ElectricityBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaPractice.ElectricityBill" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="standardOfJava.Networking.*" />
+          <option name="PATTERN" value="javaPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,7 +162,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NetworkingStudy7" />
+      <item itemvalue="Application.ElectricityBill" />
       <item itemvalue="Application.NetworkingStudy7_2" />
       <item itemvalue="Application.NetworkingStudy7_3" />
       <item itemvalue="Application.standardOfJava.LambdaExpression.LambdaStudy2" />
@@ -173,6 +170,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElectricityBill" />
         <item itemvalue="Application.standardOfJava.LambdaExpression.LambdaStudy2" />
         <item itemvalue="Application.standardOfJava.login" />
       </list>
@@ -213,7 +211,7 @@
       <workItem from="1655991837080" duration="99000" />
       <workItem from="1655991938726" duration="36054000" />
       <workItem from="1657012800506" duration="406000" />
-      <workItem from="1657085005156" duration="269000" />
+      <workItem from="1657085005156" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
