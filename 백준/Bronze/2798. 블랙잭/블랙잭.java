@@ -23,13 +23,10 @@ public class Main {
             cardArr.add(Integer.parseInt(st.nextToken()));
         }
 
-        for (int cardNum1 : cardArr) {
-            for (int cardNum2 : cardArr) {
-                for (int cardNum3 : cardArr) {
-                    if (cardNum1==cardNum2 || cardNum1==cardNum3 || cardNum3==cardNum2) {
-                        break;
-                    }
-                    int sum = cardNum1 + cardNum2 + cardNum3;
+        for (int i=0; i<cardArr.size()-2; i++) {
+            for (int j=i+1; j<cardArr.size()-1; j++) {
+                for (int k=j+1; k<cardArr.size(); k++) {
+                    int sum = cardArr.get(i) + cardArr.get(j) + cardArr.get(k);
                     if ( sum <= baseValue ) {
                         if ( max < sum ) {
                             max = sum;
