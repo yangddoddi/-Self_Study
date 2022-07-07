@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/javaPractice/gugudan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaPractice/Ai_V1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,14 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gugudan">
+  <component name="RunManager" selected="Application.javaPractice.Ai_V1">
+    <configuration name="Ai_V1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ai_V1" />
+      <module name="java-study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ElectricityBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaPractice.ElectricityBill" />
       <module name="java-study" />
@@ -109,14 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkingStudy7_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="standardOfJava.Networking.NetworkingStudy7_3" />
+    <configuration name="gugudan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaPractice.gugudan" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="standardOfJava.Networking.*" />
+          <option name="PATTERN" value="javaPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gugudan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaPractice.gugudan" />
+    <configuration name="javaPractice.Ai_V1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaPractice.Ai_V1" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
@@ -152,28 +157,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="standardOfJava.login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="standardOfJava.login" />
-      <module name="java-study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Ai_V1" />
+      <item itemvalue="Application.javaPractice.Ai_V1" />
       <item itemvalue="Application.gugudan" />
       <item itemvalue="Application.ElectricityBill" />
-      <item itemvalue="Application.NetworkingStudy7_3" />
       <item itemvalue="Application.standardOfJava.LambdaExpression.LambdaStudy2" />
-      <item itemvalue="Application.standardOfJava.login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.javaPractice.Ai_V1" />
+        <item itemvalue="Application.Ai_V1" />
         <item itemvalue="Application.gugudan" />
         <item itemvalue="Application.ElectricityBill" />
         <item itemvalue="Application.standardOfJava.LambdaExpression.LambdaStudy2" />
-        <item itemvalue="Application.standardOfJava.login" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +210,8 @@
       <workItem from="1655991938726" duration="36054000" />
       <workItem from="1657012800506" duration="406000" />
       <workItem from="1657085005156" duration="2913000" />
-      <workItem from="1657093105381" duration="1083000" />
+      <workItem from="1657093105381" duration="1604000" />
+      <workItem from="1657181318966" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
