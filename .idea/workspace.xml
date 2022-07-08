@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/javaPractice/Ai_V2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaPractice/YoutubeSub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ai_V2">
+  <component name="RunManager" selected="Application.YoutubeSub">
     <configuration name="Ai_V1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ai_V1" />
       <module name="java-study" />
@@ -116,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElectricityBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaPractice.ElectricityBill" />
+    <configuration name="YoutubeSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaPractice.YoutubeSub" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
@@ -156,19 +156,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.YoutubeSub" />
       <item itemvalue="Application.Ai_V1" />
       <item itemvalue="Application.Ai_V2" />
       <item itemvalue="Application.javaPractice.Ai_V1" />
       <item itemvalue="Application.gugudan" />
-      <item itemvalue="Application.ElectricityBill" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YoutubeSub" />
         <item itemvalue="Application.Ai_V2" />
         <item itemvalue="Application.javaPractice.Ai_V1" />
         <item itemvalue="Application.Ai_V1" />
         <item itemvalue="Application.gugudan" />
-        <item itemvalue="Application.ElectricityBill" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,9 @@
       <workItem from="1657012800506" duration="406000" />
       <workItem from="1657085005156" duration="2913000" />
       <workItem from="1657093105381" duration="1604000" />
-      <workItem from="1657181318966" duration="5268000" />
+      <workItem from="1657181318966" duration="6060000" />
+      <workItem from="1657257898240" duration="2008000" />
+      <workItem from="1657267483069" duration="4453000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
