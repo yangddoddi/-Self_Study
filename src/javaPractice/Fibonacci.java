@@ -15,7 +15,7 @@ public class Fibonacci {
         printNumbers(inputNum);
 
     }
-    
+
     // 1. 유저 입력값 받기
     private static int getUserInput() throws IOException {
         System.out.print("[안내]피보나치 수열 프로그램 시작.\n" +
