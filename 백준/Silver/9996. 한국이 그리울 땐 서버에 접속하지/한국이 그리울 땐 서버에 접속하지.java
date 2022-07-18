@@ -1,4 +1,3 @@
-import java.util.*;
 import java.io.*;
 import java.util.regex.Pattern;
 
@@ -17,20 +16,13 @@ public class Main {
         }
 
         for (String s : fileNames) {
-            if (Pattern.matches(pattern, s) && s.length() != 1) {
+            if (s.indexOf(inputPattern[0])==0 && s.lastIndexOf(inputPattern[1])==s.length()-inputPattern[1].length() &&
+                    inputPattern[0].length() + inputPattern[1].length() -1 <= s.length()) {
                 result.append("DA").append("\n");
             } else {
                 result.append("NE").append("\n");
             }
         }
-
-//        for (String s : fileNames) {
-//            if (s.indexOf(inputPattern[0])==0 && s.lastIndexOf(inputPattern[1])==s.length()-inputPattern[1].length() && s.length()!=1) {
-//                result.append("DA").append("\n");
-//            } else {
-//                result.append("NE").append("\n");
-//            }
-//        }
 
         System.out.println(result);
         }
