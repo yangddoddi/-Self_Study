@@ -2,15 +2,17 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] numbers) {
-    ArrayList<Integer> nums = new ArrayList<>();
-    
-    for (int i=0; i<=9; i++) {
-        nums.add(i);
+    ArrayList<Integer> numList = new ArrayList<>();
+    int sum = 0;    
+        
+    for (int i=0; i<numbers.length; i++) {
+        numList.add(numbers[i]);
     }
         
-    return nums.stream()
-        .filter(num -> Arrays.stream(numbers).noneMatch(n->n==num))
-        .mapToInt(m->m)
-        .sum();
+    for (int i=0; i<=9; i++) {
+        if (!numList.contains(i)) sum+=i;
+    }
+        
+    return sum;
     }
 }
