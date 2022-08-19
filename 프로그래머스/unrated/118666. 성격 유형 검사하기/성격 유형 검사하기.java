@@ -3,36 +3,50 @@ import java.util.*;
 class Solution {
     public String solution(String[] survey, int[] choices) {
         StringBuilder answer = new StringBuilder();
-        Map<String, Integer> result = new HashMap<>();
+        Map<Integer, Integer> result = new HashMap<>();
         String[] type = {"R","T","C","F","J","M","A","N"};
-
+        
         for (int i=0; i<survey.length; i++) {
-            String firstChar = survey[i].substring(0,1);
-            String secondChar = survey[i].substring(1,2);
-            if (choices[i] < 4) {
-                int point = 4-choices[i];
-                if (result.getOrDefault(firstChar, null) == null) {
-                    result.put(firstChar, point);
-                } else {
-                    result.put(firstChar, result.get(firstChar)+point);
-                }
-            } else if (choices[i] > 4) {
-                int point = choices[i]-4;
-               if (result.getOrDefault(secondChar, null) == null) {
-                    result.put(secondChar, point);
-                } else {
-                    result.put(secondChar, result.get(secondChar)+point);
-                }
+            int point = 0;
+            if (choices[i]>4) point = -(choices[i]-4);
+            else if (choices[i]<4) point = 4-choices[i];
+            
+            switch(survey[i].substring(0,1)) {
+                case "R" :
+                    result.put(1, result.getOrDefault(1,0)+point);
+                    break;
+                case "T" :
+                    result.put(1, result.getOrDefault(1,0)-point);
+                    break;
+                case "C" :
+                    result.put(2, result.getOrDefault(2,0)+point);
+                    break;
+                case "F" :
+                    result.put(2, result.getOrDefault(2,0)-point);
+                    break;
+                case "J" :
+                    result.put(3, result.getOrDefault(3,0)+point);
+                    break;
+                case "M" :
+                    result.put(3, result.getOrDefault(3,0)-point);
+                    break;
+                case "A" :
+                    result.put(4, result.getOrDefault(4,0)+point);
+                    break;
+                case "N" :
+                    result.put(4, result.getOrDefault(4,0)-point);
+                    break;
             }
         }
         
-        for (int i=0; i<type.length; i+=2) {
-            int first = result.getOrDefault(type[i], 0);
-            int second = result.getOrDefault(type[i+1], 0);
-            
-            if (first > second) answer.append(type[i]);
-            else if (second > first) answer.append(type[i+1]);
-            else if (second == first) answer.append(type[i]);
+        // if (result.getOrDefault(1,0) >= 0) ? sb.append("R") : sb.append("T");
+        // if (result.getOrDefault(2,0) >= 0) ? sb.append("C") : sb.append("F");
+        // if (result.getOrDefault(3,0) >= 0) ? sb.append("J") : sb.append("M");
+        // if (result.getOrDefault(4,0) >= 0) ? sb.append("A") : sb.append("N");
+        
+        for (int i=0; i<4; i++) {
+            if (result.getOrDefault(i+1,0) >= 0) answer.append(type[i*2]);
+            else answer.append(type[(i*2)+1]);
         }
         
         return answer.toString();
