@@ -4,41 +4,62 @@ import java.util.stream.*;
 
 class Solution {
     public int[] solution(String[] id_list, String[] report, int k) {
+        Map<String, User> users = new HashMap<>();
         int[] answer = new int[id_list.length];
-        Map<String, ArrayList<String>> result = new HashMap<>();
-        Map<String, Integer> counter = new HashMap<>();
-        StringTokenizer st;
         
-        for ( String s : report ) {
-            st = new StringTokenizer(s, " ");
+        for ( int i=0; i<id_list.length; i++ ) {
+            users.put(id_list[i],new User(i));
+        }
+        
+        StringTokenizer st = null;
+        for ( String str : report ) {
+            st = new StringTokenizer(str, " ");
             
             String reporter = st.nextToken();
             String reported = st.nextToken();
             
-            if ( !result.containsKey(reporter) ) {
-            result.put(reporter, new ArrayList<String>());
-            }
-            
-            if ( !result.get(reporter).contains(reported) ) {
-                result.get(reporter).add(reported);
-                counter.put(reported, counter.getOrDefault(reported, 0) + 1);
-            }
+            users.get(reported).BeReported(reporter);
         }
         
-        List<String> blackList = counter.keySet()
-            .stream().filter( key -> counter.get(key) >= k)
-            .collect(Collectors.toList());
+        for ( String str : id_list ) {
+            users.get(str).checkReportedCount(k, users);
+        }
         
-            for (int i = 0; i < id_list.length; i++) {
-                if (result.containsKey(id_list[i])) {
-                    for ( String s : blackList) {
-                        if (result.get(id_list[i]).contains(s)) {
-                            answer[i]+=1;
-                        }
-                    }
-                }
-            }
+        for ( int i=0; i<id_list.length; i++ ) {
+            answer[i] = users.get(id_list[i]).getEmailCount();
+        }
         
         return answer;
+    }
+    
+    class User {
+        private int emailCount;
+        private int idx;
+        private Set<String> reportedRecord;
+        
+        public User (int idx) {
+            this.idx = idx;
+            this.emailCount = 0;
+            this.reportedRecord = new HashSet<>();
+        }
+
+        public void incraseEmailCount() {
+            this.emailCount += 1;
+        }
+        
+        public int getEmailCount() {
+            return this.emailCount;
+        }
+        
+        public void BeReported(String userName) {
+            reportedRecord.add(userName);
+        }
+        
+        public void checkReportedCount(int condition, Map<String,User> users) {
+            if (reportedRecord.size() >= condition) {
+                reportedRecord.stream()
+                    .forEach(e-> users.get(e).incraseEmailCount());
+            }
+        }
     }
 }
