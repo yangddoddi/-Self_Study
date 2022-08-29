@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/javaPractice/MyStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/Euclid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaPractice/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaPractice/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaPractice/stringifyJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaPractice/stringifyJSON.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +96,26 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyStorage">
+  <component name="RunManager" selected="Application.Euclid">
     <configuration name="Ai_V2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaPractice.Ai_V2" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Euclid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Euclid" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,33 +162,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaPractice.Ai_V1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaPractice.Ai_V1" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Euclid" />
       <item itemvalue="Application.MyStorage" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.YoutubeSub" />
       <item itemvalue="Application.Ai_V2" />
-      <item itemvalue="Application.javaPractice.Ai_V1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Euclid" />
         <item itemvalue="Application.MyStorage" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.YoutubeSub" />
         <item itemvalue="Application.Ai_V2" />
-        <item itemvalue="Application.javaPractice.Ai_V1" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +222,14 @@
       <workItem from="1657281610242" duration="643000" />
       <workItem from="1657527004678" duration="1884000" />
       <workItem from="1657528897770" duration="2052000" />
-      <workItem from="1657611203336" duration="2412000" />
+      <workItem from="1657611203336" duration="3145000" />
+      <workItem from="1657615447670" duration="828000" />
+      <workItem from="1657639414896" duration="678000" />
+      <workItem from="1658457766895" duration="7000" />
+      <workItem from="1658458743224" duration="5000" />
+      <workItem from="1658462175245" duration="718000" />
+      <workItem from="1661763064424" duration="1082000" />
+      <workItem from="1661765263985" duration="3482000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
@@ -293,6 +300,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javaPractice/MyStorage.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
