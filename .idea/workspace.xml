@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96640010-c385-4246-a609-501f1c059da9" name="변경" comment="폴더명 변경">
-      <change afterPath="$PROJECT_DIR$/src/java8/concurrent/CallableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/concurrent/CompletableFutureExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/concurrent/ExecutorsBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/concurrent/ThreadBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/etc/AnnotationBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/etc/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/etc/ChickenBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/etc/Metaspace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/etc/StreamParallel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -98,20 +99,7 @@
       <recent name="CollectionFramework.TreeMap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompletableFutureExample">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.DateTime.App" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.DateTime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamParallel">
     <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.concurrent.CompletableFutureExample" />
       <module name="java-study" />
@@ -125,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.concurrent.ThreadBasic" />
+    <configuration name="StreamParallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.etc.StreamParallel" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.concurrent.*" />
+          <option name="PATTERN" value="java8.etc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +152,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java8.etc.AnnotationBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.etc.AnnotationBase" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ThreadBasic" />
+      <item itemvalue="Application.StreamParallel" />
+      <item itemvalue="Application.java8.etc.AnnotationBase" />
       <item itemvalue="Application.CompletableFutureExample" />
       <item itemvalue="Application.java8.concurrent.CallableExample" />
       <item itemvalue="Application.java8.concurrent.ExecutorsBasic" />
-      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamParallel" />
+        <item itemvalue="Application.java8.etc.AnnotationBase" />
         <item itemvalue="Application.CompletableFutureExample" />
         <item itemvalue="Application.java8.concurrent.CallableExample" />
         <item itemvalue="Application.java8.concurrent.ExecutorsBasic" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +243,8 @@
       <workItem from="1662691823059" duration="14212000" />
       <workItem from="1662710720714" duration="3811000" />
       <workItem from="1662726369046" duration="1159000" />
-      <workItem from="1662727538762" duration="874000" />
+      <workItem from="1662727538762" duration="1480000" />
+      <workItem from="1662729264893" duration="2373000" />
     </task>
     <task id="LOCAL-00001" summary="폴더명 변경">
       <created>1653847208922</created>
