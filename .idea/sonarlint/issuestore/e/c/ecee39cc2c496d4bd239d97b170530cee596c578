@@ -1,0 +1,51 @@
+
+J
+java:S1121÷".Extract the assignment out of this expression.(”Ä¾ßşÿÿÿÿ
+2
+java:S1643"Use a StringBuilder instead.(€ã“Ù
+7
+java:S1643X"Use a StringBuilder instead.(Ô»–Êúÿÿÿÿ
+7
+java:S1643Z"Use a StringBuilder instead.(çö­†úÿÿÿÿ
+7
+java:S1643d"Use a StringBuilder instead.(¨Ó»–úÿÿÿÿ
+2
+java:S1643š"Use a StringBuilder instead.(š¦
+8
+java:S1643Â"Use a StringBuilder instead.(ß¦•Åøÿÿÿÿ
+3
+java:S1643Ä"Use a StringBuilder instead.(ÀƒØà
+8
+java:S1643Ó"Use a StringBuilder instead.(êÆ”ûÿÿÿÿ
+3
+java:S1643Õ"Use a StringBuilder instead.(¶şÅ¬
+8
+java:S1643Ö"Use a StringBuilder instead.(½Åüÿÿÿÿÿ
+3
+java:S1643Ø"Use a StringBuilder instead.(¶şÅ¬
+S
+java:S4973Ï"<Strings and Boxed types should be compared using "equals()".(½çıı
+G
+java:S1153š"1Directly append the argument of String.valueOf().(š¦
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(« ‡§ùÿÿÿÿ
+R
+java:S2589+"7Remove this expression which always evaluates to "true"(ê®÷øÿÿÿÿ
+Y
+java:S2583"DChange this condition so that it does not always evaluate to "false"(†Îó5
+V	java:S125"<This block of commented-out lines of code should be removed.(Æ÷èåıÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(ÓñàÍ
+=
+java:S1125"(Remove the unnecessary boolean literals.(†Îó5
+]
+java:S1126•"AReplace this if-then-else statement by a single return statement.(«¶íÔÿÿÿÿÿ
+I
+java:S1135"2Complete the task associated to this TODO comment.(ÓñàÍ
+I
+java:S1135§"2Complete the task associated to this TODO comment.(ÓñàÍ
+V
+java:S1854¿":Remove this useless assignment to local variable "newArr".(á§Çˆøÿÿÿÿ
+G
+java:S1481¿"+Remove this unused "newArr" local variable.(á§Çˆøÿÿÿÿ
+B
+java:S1481Ú"+Remove this unused "result" local variable.(‡Ê²
