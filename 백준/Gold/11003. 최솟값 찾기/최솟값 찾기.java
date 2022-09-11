@@ -40,14 +40,9 @@ public class Main {
 
             deque.addLast(node);
 
-//            if (node.compareToNode(deque.getLast())) {
-//                deque.removeLast();
-//                deque.addLast(node);
+//            if (node.compareToNode(deque.getFirst())) {
+//                deque.removeFirst();
 //            }
-
-            if (node.compareToNode(deque.getFirst())) {
-                deque.removeFirst();
-            }
 
             sb.append(deque.getFirst().getValue()).append(" ");
 
