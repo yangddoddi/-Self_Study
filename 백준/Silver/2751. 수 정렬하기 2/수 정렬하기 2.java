@@ -1,70 +1,63 @@
 import java.util.*;
-
 import java.io.*;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
+        
         int[] arr = new int[N];
         int[] temp = new int[N];
-
+        
         for (int i=0; i<N; i++) {
             arr[i] = Integer.parseInt(br.readLine());
         }
-
-        mergeSort(arr, 0, arr.length-1, temp);
-
+        mergeSort(arr,0,arr.length-1,temp);
+        
         StringBuilder sb = new StringBuilder();
-        for (int n : arr) {
-            sb.append(n).append("\n");
+        for (int i=0; i<N; i++) {
+            sb.append(arr[i]).append("\n");
         }
         
         System.out.println(sb.toString());
     }
-
-    private static void mergeSort(int[] arr, int left, int right, int[] temp) {
-        if (left == right) return;
-
-        int mid = (left+right) / 2;
-        mergeSort(arr, left, mid, temp);
-        mergeSort(arr, mid+1, right, temp);
-
-        sort(arr, left, right, mid, temp);
+    
+    private static void mergeSort(int[] arr, int low, int high, int[] temp) {
+        if (low!=high) {
+            int mid = (low+high)/2;
+            mergeSort(arr, low, mid, temp);
+            mergeSort(arr, mid+1, high, temp);
+            merge(arr, low, high, temp);
+        }
     }
+    
+    private static void merge(int[] arr, int low, int high, int[] temp) {
+        int mid = (high+low)/2;
+        int left = low;
+        int index = low;
+        int right = mid+1;
 
-    private static void sort(int[] arr, int low, int high, int mid, int[] temp) {
-        int l = low;
-        int r = mid+1;
-        int idx = low;
-
-        while (l <= mid && r <= high) {
-            if (arr[l] < arr[r]) {
-                temp[idx] = arr[l];
-                idx++;
-                l++;
+        while (left<=mid && right<=high) {
+            if (arr[left] >= arr[right]) {
+                temp[index++] = arr[right++];
             } else {
-                temp[idx] = arr[r];
-                idx++;
-                r++;
+                temp[index++] = arr[left++];
             }
         }
-
-        if (l > mid) {
-            while(r <= high) {
-                temp[idx] = arr[r];
-                idx++;
-                r++;
-            }
-        } else {
-            while(l <= mid) {
-                temp[idx] = arr[l];
-                idx++;
-                l++;
+        
+        if (left>mid) {
+            while (index<=high) {
+                temp[index++] = arr[right++];
             }
         }
-
-        for(int i= low; i<=high; i++) {
+        
+        if (right>high) {
+            while (index<=high) {
+                temp[index++] = arr[left++];
+            }
+        }
+        
+        for (int i=low; i<=high; i++) {
             arr[i] = temp[i];
         }
     }
