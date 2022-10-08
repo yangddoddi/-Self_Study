@@ -1,19 +1,13 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // 첫째 줄에 사람 수 N과 친구 관계의 수 M이 주어진다.
-        // 둘째 줄부터 정수 a b가 주어지며 a와 b가 친구라는 뜻
-        // 모든 친구 관계가 이어진다면 1 출력 아니면 0 출력
+        // A,B,C,D,E가 한 번에 이어지는 경우를 찾아야 한다 -> DFS
+        // 깊이가 5면 정답 처리하면 될 듯
+        // 사람 수(정점)은 일반 그래프와 달리 0부터 순서대로 주어지니 주의하자
 
-        // 친구 관계는 양방향이므로 무방향 그래프
-        // a-b-c-d ..가 한 번에 이어지는 것인지 체크하는 게 목적이므로 dfs
-
-        // N과 M 입력받기
+        // 총 정점 수 N과 간선 M 입력받기.
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
@@ -21,15 +15,15 @@ public class Main {
         int M = Integer.parseInt(st.nextToken());
 
         // 반복문
-        // ArrayList<ArrayList<Integer>>에 N만큼 ArrayList 삽입
+        // 인접 리스트를 위해 ArrayList N번 만큼 생성
         ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
         for (int i=0; i<N; i++) {
-            lists.add(new ArrayList<>());
+            lists.add(new ArrayList());
         }
 
-        // 반복문 (M 수만큼) -> 이 문제에서는 M이 Edge 수다.
-        // list.get(a).add(b)
-        // lisg.get(b).add(a)
+        // 반복문
+        // // M번 반복하며 간선 정보 입력받기
+        // // 친구 관계는 무방향이므로 양쪽에 동일하게 넣어주자.
         for (int i=0; i<M; i++) {
             st = new StringTokenizer(br.readLine(), " ");
 
@@ -40,41 +34,42 @@ public class Main {
             lists.get(num2).add(num1);
         }
 
-        // 방문 여부 체크 배열
-
-        // 반복문
+        // 방문 여부 체크를 위한 배열 생성
         boolean[] visited = new boolean[N];
+        // depth 체크용 변수 생성
+        int depth = 0; // 별 의미는 없다.
+        // 반복문
+
+        // // 각 노드를 dfs로 탐색
+        // // dfs (정점, 인접리스트, 방문여부체크, 깊이체크)
         for (int i=0; i<N; i++) {
-            Arrays.fill(visited,false);
-            dfs(i,lists, visited, 0);
+            dfs(i, lists, visited, depth);
+            Arrays.fill(visited, false);
         }
-        // (해당 정점을 탐색하지 않았을 시 ?)
-        // dfs (정점, 방문여부 체크, 깊이) 실행
+
         System.out.println(0);
     }
 
-    // 평범한 dfs
-    // dfs(정점, 방문여부체크, 깊이)
-    public static void dfs(int V, ArrayList<ArrayList<Integer>> lists, boolean[] visited, int depth) {
+    // dfs (정점, 인접리스트, 방문여부체크, 깊이체크)
+    public static void dfs(int vertex, ArrayList<ArrayList<Integer>> lists, boolean[] visited, int depth) {
+        // 만약 depth == 5라면 1 출력하고 시스템 종료
         if (depth == 4) {
             System.out.println(1);
             System.exit(0);
         }
-        // if (깊이 == N?) answer = 1;
-
-        visited[V] = true;
-        // if (방문했나요?) return
-        // 안했다면 방문 true
-        for (int i=0; i< lists.get(V).size(); i++) {
-            int next = lists.get(V).get(i);
-            if ( !visited[next] ) {
-                dfs(next, lists, visited, depth+1);
+        // 만약 방문했었다면 리턴
+        // visited[정점] = true
+//        if (visited[vertex]) return;
+        visited[vertex] = true;
+        // 반복문 (list.size)
+        for (int i=0; i<lists.get(vertex).size(); i++) {
+            int next = lists.get(vertex).get(i);
+            if (!visited[next]) {
+//                visited[next] = true;
+                dfs(next, lists, visited, depth + 1);
                 visited[next] = false;
             }
         }
-//        visited[V] = false;
-        //
-        // 반복문
-        // 반복문 돌면서 방문 안했다면 방문..
+        // if !isited[정점] 라면 dfs
     }
 }
