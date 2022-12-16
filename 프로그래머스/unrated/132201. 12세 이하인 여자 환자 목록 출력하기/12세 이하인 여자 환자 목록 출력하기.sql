@@ -1,0 +1,5 @@
+-- 코드를 입력하세요
+SELECT p.PT_NAME, p.PT_NO, p.GEND_CD, p.AGE, IFNULL(p.TLNO, 'NONE') 
+FROM PATIENT as p
+WHERE p.GEND_CD = 'W' AND p.AGE <= 12
+ORDER BY p.AGE DESC, p.PT_NAME ASC
