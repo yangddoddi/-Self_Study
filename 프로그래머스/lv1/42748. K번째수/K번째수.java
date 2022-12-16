@@ -1,44 +1,49 @@
 import java.util.*;
 
 class Solution {
-    // i부터 j까지 자르고 정렬한 뒤 k번째 수를 구한다
-    
-    // array를 각각 commands[idx][0],commands[idx][1]로 자르고 정렬된 배열에서 commnads[idx]     // [2]의 값 구하기
+    // commands[][0]-1 = 자르기 시작 지점
+    // commands[][1] = 자르기 끝 지점
+    // commands[][2]-1 = 뽑으려는 수
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
-        
+        // 반복 (commands.length)
         for (int i=0; i<commands.length; i++) {
-            int[] arr = new int[commands[i][1] - commands[i][0] + 1];
+        // {
+            int start = commands[i][0]-1;
+            int end = commands[i][1];
+            int pick = commands[i][2]-1;
+        // int[] 배열 = array 복사본
+            int[] arr = Arrays.copyOfRange(array, start, end);
+        // int[] 임시 배열 = 배열과 같은 크기 
             int[] temp = new int[arr.length];
-            
-            System.arraycopy(array, commands[i][0]-1, arr, 0, commands[i][1] - commands[i][0] +1);
-            // mergeSort(temp, 0, temp.length-1, temp);
-            Arrays.sort(arr);
-            
-            answer[i] = arr[commands[i][2]-1];
+        // 
+        // mergeSort（배열, 임시 배열, 0, 배열 길이-1)
+            mergeSort(arr, temp, 0, arr.length-1);
+        // answer[i] = arr[뽑으려는 수]
+            answer[i] = arr[pick];
+        // }
         }
         
         return answer;
+        // return answer
     }
     
-    static void mergeSort(int[] arr, int left, int right, int[] temp) {
+    static void mergeSort(int[] arr, int[] temp, int left, int right) {
         if (left != right) {
-            int mid = (left+right)/2;
-            
-            mergeSort(arr, left, mid, temp);
-            mergeSort(arr, mid+1, right, temp);
-            
-            merge(arr, left, right, temp);
+            int mid = (left+right) / 2;
+            mergeSort(arr, temp, left, mid);
+            mergeSort(arr, temp, mid+1, right);
+            merge(arr, temp, left, right);
         }
     }
     
-    static void merge(int[] arr, int left, int right, int[] temp) {
+    static void merge(int[] arr, int[] temp, int left, int right) {
         int l = left;
-        int r = right;
-        int m = (left+right)/2;
+        int mid = (left+right)/2;
+        int r = mid+1;
         int idx = left;
         
-        while (l<=m && r <=right) {
+        while (l<=mid && r<=right) {
             if (arr[l] > arr[r]) {
                 temp[idx++] = arr[r++];
             } else {
@@ -46,16 +51,12 @@ class Solution {
             }
         }
         
-        if (l<=m) {
-            while (l<=m) {
-                temp[idx++] = arr[l++];
-            }
+        while (l<=mid) {
+            temp[idx++] = arr[l++];
         }
         
-        if (r<=right) {
-            while (r<=right) {
-                temp[idx++] = arr[r++];
-            }
+        while (r<=right) {
+            temp[idx++] = arr[r++];
         }
         
         for (int i=left; i<=right; i++) {
