@@ -1,0 +1,5 @@
+-- 코드를 입력하세요
+SELECT f.PRODUCT_ID, f.PRODUCT_NAME, f.PRODUCT_CD, f.CATEGORY, f.PRICE
+FROM FOOD_PRODUCT as f
+WHERE f.PRICE IN (SELECT MAX(sub_f.PRICE)
+                      FROM FOOD_PRODUCT AS sub_f)
