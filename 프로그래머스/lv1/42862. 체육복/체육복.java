@@ -26,8 +26,8 @@ class Solution {
             .collect(Collectors.toList());
         
         for (int i=0; i<duplication.size(); i++) {
-            lostList.remove(lostList.indexOf(duplication.get(i)));
-            reserveList.remove(reserveList.indexOf(duplication.get(i)));
+            lostList.remove(duplication.get(i));
+            reserveList.remove(duplication.get(i));
         }
         
         int answer = n - lostList.size();
