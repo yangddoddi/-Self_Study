@@ -11,12 +11,27 @@ class Solution {
             map.get(c[1]).add(c[0]);
         }
         
-        return map
+        int values = map
             .entrySet()
             .stream()
             .map(e -> map.get(e.getKey()).size())
-            .reduce(1, (e1, e2) -> e1*(e2+1))
-            -1
-            ;
+            .reduce(0, (e1, e2) -> e1+e2);
+        
+        long keys = map
+            .entrySet()
+            .stream()
+            .map(e -> e.getKey())
+            .count();
+        
+        int sum = map
+            .entrySet()
+            .stream()
+            .map(e -> map.get(e.getKey()).size())
+            .reduce(1, (e1, e2) -> e1*e2);
+        
+        System.out.println(values);
+        System.out.println(sum);
+        
+        return (keys == 1L) ? values : values + sum;
     }
 }
