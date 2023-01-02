@@ -12,13 +12,13 @@ class Solution {
         
         int answer = 0;
         while (!queue.isEmpty()) {
-            while (queue.peek() >= answer && queue.size() >= answer) {
+            while (queue.peek() > answer && queue.size() > answer) {
                 answer++;
             }
             
             queue.poll();
         }
         
-        return answer-1;
+        return answer;
     }
 }
