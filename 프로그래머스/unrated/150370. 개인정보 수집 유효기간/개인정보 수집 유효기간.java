@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int[] solution(String today, String[] terms, String[] privacies) {
-        Date todayDate = convert(today);
+        Date todayDate = convertToDate(today);
         Map<String, Integer> map = new HashMap<>();
         
         for (String t : terms) {
@@ -15,7 +15,7 @@ class Solution {
         for (String p : privacies) {
             String[] arr = p.split(" ");
             String category = arr[1];
-            Date prev = new Date(convert(arr[0]));
+            Date prev = new Date(convertToDate(arr[0]));
             Date curr = new Date(todayDate);
             
             curr.subtractDate(prev);
@@ -31,7 +31,7 @@ class Solution {
             .toArray();
     }
     
-    private Date convert(String dateString) {
+    private Date convertToDate(String dateString) {
         String[] arr = dateString.split("\\.");
             
         Integer year = Integer.parseInt(arr[0]);
