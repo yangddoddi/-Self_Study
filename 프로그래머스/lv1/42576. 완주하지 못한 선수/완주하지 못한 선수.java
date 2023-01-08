@@ -1,19 +1,24 @@
 import java.util.*;
+import java.util.stream.*;
 
 class Solution {
     public String solution(String[] participant, String[] completion) {
-        Arrays.sort(participant);
-        Arrays.sort(completion);
+        Map<String, Integer> map = new HashMap<>();
         
-        for(int i=0; i<participant.length-1; i++) {
-            if (!participant[i].equals(completion[i])) {
-                return participant[i];
-            }
-        }
-        if (participant[participant.length-1] != completion[participant.length-2]) {
-            return participant[participant.length-1];
+        for (String p : participant) {
+            map.put(p, map.getOrDefault(p, 0) + 1);
         }
         
-        return null;
+        for (String c : completion) {
+            map.put(c, map.getOrDefault(c, 0) - 1);
+        }
+        
+        List<String> answers = map.entrySet()
+            .stream()
+            .map(e -> e.getKey())
+            .filter(e -> map.get(e) > 0)
+            .collect(Collectors.toList());
+        
+        return answers.get(0);
     }
 }
