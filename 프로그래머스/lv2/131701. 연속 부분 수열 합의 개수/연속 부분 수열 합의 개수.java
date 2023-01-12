@@ -8,10 +8,6 @@ class Solution {
             list.add(e);
         }
         
-        for (int e : elements) {
-            list.add(e);
-        }
-        
         Set<Integer> set = new HashSet<>();
         int answer = 0;
         int len = 1;
@@ -22,7 +18,7 @@ class Solution {
                 int temp = list.get(i);
                 
                 for (int j=i+1; j<i+len; j++) {
-                    temp += list.get(j);
+                    temp += list.get(j % elements.length);
                 }
 
                 set.add(temp);
