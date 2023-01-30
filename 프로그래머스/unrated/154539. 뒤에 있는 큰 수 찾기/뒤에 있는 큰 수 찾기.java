@@ -2,26 +2,24 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] numbers) {
-        Queue<int[]> queue = new PriorityQueue<>((a,b) -> {
-            if (a[0] == b[0]) {
-                return a[1] - b[1];
-            } else {
-                return a[0] - b[0];
-            }});
-        
-        int[] answer = new int[numbers.length];
-        for (int i=0; i<numbers.length; i++) {
-            while (!queue.isEmpty() && queue.peek()[0] < numbers[i]) {
-                answer[queue.poll()[1]] = numbers[i];
+        Stack<int[]> stack = new Stack<>();
+        List<int[]> list = new ArrayList<>();
+
+        for (int i=0; i<numbers.length-1; i++) {
+            stack.push(new int[]{i, numbers[i]});
+            
+            while (!stack.isEmpty() && stack.peek()[1] < numbers[i+1]) {
+                list.add(stack.pop());
             }
-            
-            queue.add(new int[]{numbers[i], i});
         }
-            
-        while (!queue.isEmpty()) {
-            answer[queue.poll()[1]] = -1;
+        
+        while (!stack.isEmpty()) {
+            list.add(new int[]{stack.pop()[0], -1});
         }
-            
-        return answer;
+        
+        return list.stream()
+            .sorted((e1,e2) -> e1[0] - e2[0])
+            .mapToInt(e -> e[1])
+            .toArray();
     }
 }
