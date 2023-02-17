@@ -1,19 +1,16 @@
-
 class Solution {
-    private static int answer = 0;
-    private static int[] board;
+    private int answer;
+    private int[] board;
     
     public int solution(int n) {
         board = new int[n];
-        
         nQueen(0, n);
-        
         return answer;
     }
     
-    public void nQueen(int depth, int n) {       
+    private void nQueen(int depth, int n) {
         if (depth == n) {
-            answer++;
+            answer += 1;
             return;
         }
         
@@ -26,11 +23,11 @@ class Solution {
         }
     }
     
-    public boolean isPossible(int col) {
+    private boolean isPossible(int col) {
         for (int i=0; i<col; i++) {
             if (board[i] == board[col]) return false;
-
-            if (Math.abs(col - i) == Math.abs(board[col] - board[i])) return false;
+            
+            if (Math.abs(col-i) == Math.abs(board[col]-board[i])) return false;
         }
         
         return true;
