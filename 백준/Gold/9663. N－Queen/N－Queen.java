@@ -1,44 +1,42 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.StringTokenizer;
 
 public class Main {
-    static int N = 0; // 보드 위에 놓을 퀸 개수
-    static int cnt = 0;
-    static boolean check;
+    private static int[] board;
+    private static int answer;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        N = Integer.parseInt(br.readLine());
-        int[] board = new int[N];
-        boolean[] check = new boolean[N];
+        int N = Integer.parseInt(br.readLine());
+        board = new int[N];
+        nQueen(0, N);
 
-        getQueenPositions(0, board);
-        // 1차원 배열 혹은 2차원 배열 숫자 중 하나라도 같다면 안됨
-        // [x+n, y+n]이면 안됨 [x-n, y-n]이면 안됨
-        System.out.println(cnt);
+        System.out.println(answer);
     }
 
-    public static void getQueenPositions(int n, int[] board) {
-        if ( n == N ) {
-            cnt++;
+    private static void nQueen(int depth, int n) {
+        if (depth == n) {
+            answer++;
             return;
         }
 
-        for (int i=0; i<N; i++) {
-            check=true;
-            board[n]=i;
+        for (int i=0; i<n; i++) {
+            board[depth] = i;
 
-            for (int j=0; j<n; j++) {
-                if (board[j] == board[n] || Math.abs(n - j) == Math.abs(board[n] - board[j])) {
-                    check=false;
-                }
-            }
-
-            if (check) {
-                getQueenPositions(n+1,board);
+            if (isPossible(depth)) {
+                nQueen(depth+1, n);
             }
         }
+    }
+
+    private static Boolean isPossible(int col) {
+        for (int i=0; i<col; i++) {
+            if (board[i] == board[col]) return false;
+
+            if (Math.abs(board[col] - board[i]) == Math.abs(col-i)) return false;
+        }
+
+        return true;
     }
 }
