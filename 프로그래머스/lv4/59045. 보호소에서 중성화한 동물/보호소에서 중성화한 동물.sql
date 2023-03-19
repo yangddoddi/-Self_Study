@@ -1,8 +1,11 @@
 -- 코드를 입력하세요
-SELECT ins.ANIMAL_ID, ins.ANIMAL_TYPE, ins.NAME
-FROM ANIMAL_INS AS ins
-JOIN (SELECT outs.ANIMAL_ID as id
-          FROM ANIMAL_OUTS AS outs
-     WHERE outs.SEX_UPON_OUTCOME like 'Spayed%' or outs.SEX_UPON_OUTCOME like 'Neutered%') AS o ON o.id = ins.ANIMAL_ID
-WHERE ins.SEX_UPON_INTAKE like 'Intact%'
-ORDER BY ins.ANIMAL_ID ASC
+SELECT ai.ANIMAL_ID, ai.ANIMAL_TYPE, ai.NAME
+FROM ANIMAL_INS as ai
+JOIN ANIMAL_OUTS as ao ON ai.ANIMAL_ID = ao.ANIMAL_ID
+WHERE ai.SEX_UPON_INTAKE LIKE 'Intact%' 
+AND (
+    ao.SEX_UPON_OUTCOME LIKE 'Neutered%'
+    OR
+    ao.SEX_UPON_OUTCOME LIKE 'Spayed%'
+    )
+ORDER BY ai.ANIMAL_ID ASC
