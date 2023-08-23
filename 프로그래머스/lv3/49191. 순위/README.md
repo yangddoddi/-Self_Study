@@ -1,10 +1,10 @@
 # [level 3] 순위 - 49191 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/49191) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/49191?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 85.9 MB, 시간: 22.93 ms
+메모리: 62.7 MB, 시간: 18.60 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-<br/>정확성: 100.0<br/>합계: 100.0 / 100.0
+Empty
 
 ### 문제 설명
 
