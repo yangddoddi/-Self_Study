@@ -10,8 +10,6 @@ class Solution {
             zeroCount += cnt
             convertCount += 1
             target = str
-            
-            if (convertCount == 10) break
         }
         
         return intArrayOf(convertCount, zeroCount)
@@ -19,14 +17,8 @@ class Solution {
     
     fun convert(s: String): Pair<String, Int> {
         val zeroCount = s.filter { char -> char == '0' }.count()
+        val sWithoutZeroIntegerLength = s.filter { char -> char != '0' }.count()
         
-        val sWithoutZero = s
-            .filter { char -> char != '0' }
-            .map { char -> char.toString() }
-            .joinToString("")
-        
-        val sWithoutZeroIntegerLength = sWithoutZero.length
-        
-        return Pair<String, Int>(Integer.toString(sWithoutZeroIntegerLength, 2), zeroCount)
+        return sWithoutZeroIntegerLength.toString(2) to zeroCount
     }
 }
