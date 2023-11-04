@@ -1,78 +1,65 @@
 class Solution {
-    var zeroCount = 0
-    var oneCount = 0
-
     fun solution(arr: Array<IntArray>): IntArray {
-        recursion(
-            arr = arr,
-            start = Position(x = 0, y = 0),
-            end = Position(x = arr[0].size - 1, y = arr.size - 1)
+        val start = Position(
+            x = 0, 
+            y = 0)
+        
+        val end = Position(
+            x = arr[0].size - 1,
+            y = arr.size - 1
         )
-
-        return intArrayOf(zeroCount, oneCount)
+        
+        val answer = intArrayOf(0, 0)
+        compression(arr, start, end, answer)
+        
+        return answer
     }
-
-    fun recursion(
+    
+    fun compression(
         arr: Array<IntArray>,
         start: Position,
-        end: Position
+        end: Position,
+        answer: IntArray
     ) {
-        val result = isUniform(
-            arr = arr, 
-            start = start, 
-            end = end
-        )
-
-        when (result) {
-            0 -> zeroCount++
-            1 -> oneCount++
-            else -> {
-                val midX = (start.x + end.x) / 2
-                val midY = (start.y + end.y) / 2
-
-                recursion(
-                    arr = arr,
-                    start = Position(x = start.x, y = start.y),
-                    end = Position(x = midX, y = midY)
-                )
-
-                recursion(
-                    arr = arr,
-                    start = Position(x = midX + 1, y = midY + 1),
-                    end = Position(x = end.x, y = end.y)
-                )
-
-                recursion(
-                    arr = arr,
-                    start = Position(x = midX + 1, y = start.y),
-                    end = Position(x = end.x, y = midY)
-                )
-
-                recursion(
-                    arr = arr,
-                    start = Position(x = start.x, y = midY + 1),
-                    end = Position(x = midX, y = end.y)
-                )
+        val n = arr[start.y][start.x]
+        
+        if (checkIfAllSame(arr, start, end)) {
+            when (n) {
+                0 -> answer[0] += 1
+                1 -> answer[1] += 1
+                else -> throw RuntimeException()
             }
+            
+            return
         }
+        
+        val mid = Position(
+            x = (start.x + end.x) / 2,
+            y = (start.y + end.y) / 2
+        )    
+        
+        compression(arr, Position(start.x, start.y), Position(mid.x, mid.y), answer)
+        compression(arr, Position(mid.x + 1, start.y), Position(end.x, mid.y), answer)
+        compression(arr, Position(start.x, mid.y + 1), Position(mid.x, end.y), answer)
+        compression(arr, Position(mid.x + 1, mid.y + 1), Position(end.x, end.y), answer)
     }
-
-    fun isUniform(
+    
+    fun checkIfAllSame(
         arr: Array<IntArray>,
         start: Position,
         end: Position
-    ): Int? {
-        val firstNum = arr[start.y][start.x]
-
+    ): Boolean {
+        val n = arr[start.y][start.x]
+        
         for (i in start.y .. end.y) {
             for (j in start.x .. end.x) {
-                if (arr[i][j] != firstNum) return null
+                if (arr[i][j] != n) return false
             }
         }
-
-        return firstNum
+        
+        return true
     }
-
+    
     data class Position(
         val x: Int,
         val y: Int
