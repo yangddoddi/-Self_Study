@@ -1,24 +1,28 @@
 class Solution {
     fun solution(s: String): IntArray {
-        var zeroCount = 0
-        var convertCount = 0
-        var target = s
-        
-        while (target != "1") {
-            val (str, cnt) = convert(target)
-            
-            zeroCount += cnt
-            convertCount += 1
-            target = str
-        }
-        
-        return intArrayOf(convertCount, zeroCount)
+        return process(s, 0, 0)
     }
     
-    fun convert(s: String): Pair<String, Int> {
-        val zeroCount = s.filter { char -> char == '0' }.count()
-        val sWithoutZeroIntegerLength = s.filter { char -> char != '0' }.count()
+    fun process(
+        s: String,
+        deletedZeroCnt: Int,
+        convertCnt: Int
+    ): IntArray {
+        if (s == "1") return intArrayOf(convertCnt, deletedZeroCnt)
         
-        return sWithoutZeroIntegerLength.toString(2) to zeroCount
+        var newS = ""
+        var zeroCnt = 0
+        
+        for (i in 0 until s.length) {
+            if (s[i] == '0') {
+                zeroCnt++
+            } else {
+                newS += s[i]
+            }
+        }
+        
+        val c = Integer.toString(newS.length, 2)
+        
+        return process(c, deletedZeroCnt + zeroCnt, convertCnt + 1)
     }
 }

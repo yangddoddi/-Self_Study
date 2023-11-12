@@ -1,10 +1,10 @@
 # [level 2] 이진 변환 반복하기 - 70129 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70129?language=kotlin) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70129) 
 
 ### 성능 요약
 
-메모리: 61.5 MB, 시간: 11.38 ms
+메모리: 93 MB, 시간: 46.12 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 1일 0:55:13
+2023년 11월 0일 11:54:16
 
 ### 문제 설명
 
