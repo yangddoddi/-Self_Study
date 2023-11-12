@@ -2,56 +2,60 @@ class Solution {
     fun solution(s: String): Int {
         if (s.length == 1) return 1
         
-        val list = s.map {
-            char -> char.toString()
-        }
+        val stringList = s
+            .map { it.toString() }
+            .toMutableList()
         
         var answer = Int.MAX_VALUE
-        for (i in 1 until s.length) {
-            answer = Math.min(compression(list, i), answer)
+        for (i in 1 until stringList.size) {
+            answer = Math.min(compressionAndGetLength(
+                stringList,
+                i
+            ), answer)
         }
         
         return answer
     }
     
-    fun compression(
-        s: List<String>,
+    fun compressionAndGetLength(
+        stringList: MutableList<String>,
         length: Int
     ): Int {
-        val tokens = mutableListOf<String>()
+        val words = mutableListOf<String>()
         
-        for (i in s.indices step length) {
-            var tempString = ""
+        for (i in stringList.indices step length) {
+            var word = ""
             
-            for (j in i until i + length) {
-                if (j in s.indices) tempString += s[j]
-            }
-            
-            tokens.add(tempString)
-        }
-        
-        var prev = 0
-        var idx = 1
-        var word = tokens[0]
-        
-        while (idx in tokens.indices) {
-            if (tokens[prev] == tokens[idx]) {
-                var sameNumCount = 2
-                
-                while (idx + 1 in tokens.indices && tokens[idx+1] == tokens[prev]) {
-                    sameNumCount += 1
-                    idx += 1
+            for (j in i until i+length) {
+                if (j in stringList.indices) {
+                    word += stringList[j]
                 }
-                
-                idx += 1
-                word += sameNumCount
-            } else {
-                word += tokens[idx]
-                prev = idx
-                idx += 1
             }
+            
+            words.add(word)
         }
         
-        return word.length
+        var prevWord = words[0]
+        var idx = 1
+        var result = words[0]
+        
+        while (idx in words.indices) {
+            if (words[idx] == prevWord) {
+                var numCount = 2
+                
+                while (idx + 1 in words.indices && words[idx + 1] == prevWord) {
+                    idx++
+                    numCount++
+                }
+                result += numCount
+            } else {
+                result += words[idx]
+                prevWord = words[idx]
+            }
+            
+            idx++
+        }
+
+        return result.length
     }
 }
