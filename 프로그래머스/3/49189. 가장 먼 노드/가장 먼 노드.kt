@@ -2,59 +2,65 @@ import java.util.*
 
 class Solution {
     fun solution(n: Int, edge: Array<IntArray>): Int {
-        val edges = mutableListOf<MutableList<Int>>()
+        val edgeList = mutableListOf<MutableList<Int>>()
         
         for (i in 0 .. n) {
-            edges.add(mutableListOf())
+            edgeList.add(mutableListOf())
         }
         
         for (i in edge.indices) {
             val nodeA = edge[i][0]
             val nodeB = edge[i][1]
             
-            edges[nodeA].add(nodeB)
-            edges[nodeB].add(nodeA)
+            edgeList[nodeA].add(nodeB)
+            edgeList[nodeB].add(nodeA)
         }
         
-        val distanceList = dijkstra(1, n, edges)
-        var maxDistance = Int.MIN_VALUE
-        for (i in distanceList.indices) {
-            if (distanceList[i] == Int.MAX_VALUE) continue
-            
-            maxDistance = Math.max(distanceList[i], maxDistance)
+        val distanceArray = dijkstra(
+            edgeList,
+            1,
+            n
+        )
+        
+        var maxValue = Int.MIN_VALUE
+        
+        for (i in distanceArray.indices) {
+            maxValue = Math.max(distanceArray[i], maxValue)
         }
         
-        return distanceList.filter { it == maxDistance }.count()
+        return distanceArray.filter { it == maxValue }.count()
     }
     
     fun dijkstra(
-        startNode: Int,
-        nodeCount: Int,
-        edges: MutableList<MutableList<Int>>
+        edgeList: MutableList<MutableList<Int>>,
+        start: Int,
+        nodeCount: Int
     ): IntArray {
         val queue = PriorityQueue<Node>() {
             a, b -> b.distance - a.distance
         }
+        queue.add(Node(start, 0))
         
-        val distanceArray = IntArray(nodeCount + 1)
-        
-        for (i in distanceArray.indices) {
-            distanceArray[i] = Int.MAX_VALUE
+        val distanceArray = IntArray(nodeCount + 1) {
+            Int.MAX_VALUE
         }
-        
-        distanceArray[startNode] = 0
-        queue.add(Node(startNode, 0))
+        distanceArray[0] = 0
+        distanceArray[start] = 0
         
         while (queue.isNotEmpty()) {
             val currNode = queue.poll()
             
-            for (i in edges[currNode.number].indices) {
-                val nextNodeNumber = edges[currNode.number][i]
-                val nextDistance = distanceArray[currNode.number] + 1
+            if (currNode.distance > distanceArray[currNode.nodeNumber]) {
+                continue
+            }
+            
+            for (i in edgeList[currNode.nodeNumber].indices) {
+                val nextDistance = currNode.distance + 1
+                val nextNode = Node(edgeList[currNode.nodeNumber][i], nextDistance)
                 
-                if (nextDistance < distanceArray[nextNodeNumber]) {
-                    distanceArray[nextNodeNumber] = nextDistance
-                    queue.add(Node(nextNodeNumber, nextDistance))
+                if (nextDistance < distanceArray[nextNode.nodeNumber]) {
+                    queue.add(nextNode)
+                    distanceArray[nextNode.nodeNumber] = nextDistance
                 }
             }
         }
@@ -63,7 +69,7 @@ class Solution {
     }
     
     data class Node(
-        val number: Int,
+        val nodeNumber: Int,
         val distance: Int
     )
 }
